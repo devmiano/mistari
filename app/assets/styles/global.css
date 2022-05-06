@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Questrial&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Updock&display=swap'); 
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\000034}}
+  *, *::before, *::after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px; }
+
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000321}}
+    body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+      margin: 0; }
+
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000327}}
+      ul[role='list'], ol[role='list'] {
+        list-style: none; }
+
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000333}}
+        html {
+          font-family: 'Work Sans', sans-serif; }
+
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000338}}
+          html:focus-within {
+            scroll-behavior: smooth; }
+
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000343}}
+            body {
+              text-rendering: optimizeSpeed;
+              line-height: 1.5;
+              background-color: #eef8fc; }
+
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000350}}
+              a:not([class]) {
+                text-decoration-skip-ink: auto; }
+
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000356}}
+                img, picture {
+                  max-width: 100%;
+                  display: block; }
+
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000365}}
+                  input, button, textarea, select {
+                    font: inherit; }
+
+                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000370}}
+                    @media (prefers-reduced-motion: reduce) {
+                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000370}}
+                      html:focus-within {
+                        scroll-behavior: auto;   }
+                        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000376}}
+                        *, *::before, *::after {
+                          animation-duration: 0.01ms !important;
+                          animation-iteration-count: 1 !important;
+                          transition-duration: 0.01ms !important;
+                          scroll-behavior: auto !important;   }
+}
+
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000387}}
+  ::-webkit-scrollbar {
+    width: 0.5rem; }
+
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000391}}
+    ::-webkit-scrollbar-track {
+      background: #eef8fc; }
+
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000395}}
+      ::-webkit-scrollbar-thumb {
+        background: #13b6f6; }
+
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000399}}
+        ::-webkit-scrollbar-thumb:hover {
+          background: #1f2633; }
