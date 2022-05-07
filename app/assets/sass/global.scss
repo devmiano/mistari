@@ -5,6 +5,12 @@
 @mixin col {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+@mixin row {
+  display: flex;
+  flex-direction: row;
 }
 
 @mixin link {
@@ -42,13 +48,32 @@
       @include col;
       width: 100%;
       .nav-link {
+        @include row;
         @include link;
+        width: 100%;
         margin: 0.5rem 0;
+
+        .nav-icon {
+          height: 1.5rem;
+          width: 1.5rem;
+        }
+        .nav-text {
+          margin-left: 1rem;
+        }
       }
     }
     .nav-cta {
+      @include row;
       @include link;
       width: 100%;
+
+      .nav-icon {
+        height: 1.5rem;
+        width: 1.5rem;
+      }
+      .nav-text {
+        margin-left: 1.5rem;
+      }
     }
   }
 
