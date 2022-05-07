@@ -184,13 +184,13 @@
                   @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003113}}
                   .app .container .hero .hero-content .hero-title {
                     color: #00ffe7;
-                    font-weight: 600;
+                    font-weight: 500;
                     font-size: 2.4rem;
                     font-family: 'Roboto Slab', serif;
                     letter-spacing: 0.05rem; }
                     @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003120}}
                     .app .container .hero .hero-content .hero-text {
-                      color: #9fa9d0;
+                      color: #d1f5ff;
                       margin: 1rem 0;
                       font-weight: 400;
                       font-size: 1.3rem;
@@ -206,11 +206,11 @@
                         letter-spacing: 0.05rem;
                         color: #13152a;
                         font-weight: 500;
-                        border-radius: 0.5rem;
+                        border-radius: 0.25rem;
                         background-color: #00ffe7; }
                 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003137}}
                 .app .container .hero .hero-image {
-                  margin-right: 4rem;
+                  margin-right: 2rem;
                   height: 30rem; }
 
   @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003148}}

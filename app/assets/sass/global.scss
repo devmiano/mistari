@@ -116,7 +116,7 @@
 
         .hero-title {
           color: $primary;
-          font-weight: 600;
+          font-weight: 500;
           font-size: 2.4rem;
           font-family: $roboto;
           letter-spacing: 0.05rem;
@@ -133,12 +133,12 @@
           @include link;
           color: $bg;
           font-weight: 500;
-          border-radius: 0.5rem;
+          border-radius: 0.25rem;
           background-color: $primary;
         }
       }
       .hero-image {
-        margin-right: 4rem;
+        margin-right: 2rem;
         height: 30rem;
       }
     }
