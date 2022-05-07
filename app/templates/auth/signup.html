@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <h1>Signup</h1>
+    <form>
+      {{ signup.csrf_token }}
+      <p>{{ signup.first_name.label }} {{ signup.first_name() }}</p>
+      {% for error in signup.first_name.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+
+      <p>{{ signup.last_name.label }} {{ signup.last_name() }}</p>
+      {% for error in signup.last_name.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+
+      <p>{{ signup.username.label }} {{ signup.username() }}</p>
+      {% for error in signup.username.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+
+      <p>{{ signup.email.label }} {{ signup.email() }}</p>
+      {% for error in signup.email.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+
+      <p>{{ signup.password.label }} {{ signup.password() }}</p>
+      {% for error in signup.password.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+
+      <p>{{ signup.password_confirm.label }} {{ signup.password_confirm() }}</p>
+      {% for error in signup.password_confirm.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+
+      <p>{{ signup.submit.label }} {{ signup.submit() }}</p>
+      {% for error in signup.submit.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+    </form>
+  </body>
+</html>

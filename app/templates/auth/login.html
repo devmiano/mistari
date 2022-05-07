@@ -7,6 +7,30 @@
     <title>Login</title>
   </head>
   <body>
-    <h1>Login page</h1>
+    <h1>Login</h1>
+    {% for message in get_flashed_messages() %}
+    <p>{{message}}</p>
+    {% endfor %}
+    <form>
+      {{ login.csrf_token }}
+
+      <p>{{ login.email.label }} {{ login.email() }}</p>
+      {% for error in login.email.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+
+      <p>{{ login.password.label }} {{ login.password() }}</p>
+      {% for error in login.password.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+
+      <p>{{ login.submit.label }} {{ login.submit() }}</p>
+      {% for error in login.submit.errors %}
+      <li>{{error}}</li>
+      {% endfor %}
+    </form>
+    <p>
+      Dont have an account? <a href="{{url_for('auth.signup')}}">Sign up</a>
+    </p>
   </body>
 </html>
