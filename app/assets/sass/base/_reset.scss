@@ -43,7 +43,7 @@ html:focus-within {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: #eef8fc;
+  background-color: #13152a;
 }
 
 /* // A elements that don't have a class gets default styles */
@@ -89,13 +89,13 @@ select {
 }
 
 ::-webkit-scrollbar-track {
-  background: #eef8fc;
+  background: #13152a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #13b6f6;
+  background: #00ffe7;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1f2633;
+  background: #00ffe7;
 }

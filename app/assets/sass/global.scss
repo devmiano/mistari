@@ -1,10 +1,62 @@
 @import './base/reset';
+@import './base/colors';
+@import './base/fonts';
 
-@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Questrial&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Updock&display=swap');
+@mixin col {
+  display: flex;
+  flex-direction: column;
+}
 
-$font-one: 'Nixie One', cursive;
-$font-one: 'Philosopher', sans-serif;
-$font-one: 'Questrial', sans-serif;
-$font-one: 'Space Grotesk', sans-serif;
-$font-one: 'Syne', sans-serif;
-$font-one: 'Updock', cursive;
+@mixin link {
+  padding: 1rem 2rem;
+  font-family: $plus;
+  color: $text-light;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  background-color: $text-dark;
+}
+
+.app {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+
+  .sidebar {
+    @include col;
+    top: 0;
+    width: 20%;
+    z-index: 100;
+    height: 100vh;
+    padding: 1rem;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $dark;
+
+    .nav-brand {
+      @include link;
+      width: 100%;
+    }
+    .navbar {
+      @include col;
+      width: 100%;
+      .nav-link {
+        @include link;
+        margin: 0.5rem 0;
+      }
+    }
+    .nav-cta {
+      @include link;
+      width: 100%;
+    }
+  }
+
+  .container {
+    @include col;
+    width: 80%;
+    padding: 1rem;
+    overflow: auto;
+    color: $text-light;
+  }
+}
