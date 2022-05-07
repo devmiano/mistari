@@ -149,3 +149,110 @@
   border-radius: 0.25rem;
   background-color: $text-dark;
 }
+
+.topbar {
+  @include row;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 1rem;
+  justify-content: flex-end;
+
+  .bar-search {
+    @include row;
+    height: 100%;
+    align-items: center;
+    background-color: $dark;
+    border-radius: 0.25rem 0 0 0.25rem;
+
+    .search {
+      width: 20rem;
+      border: none;
+      outline: none;
+      color: $primary;
+      font-weight: 400;
+      font-size: 1.1rem;
+      padding-left: 0.8rem;
+      letter-spacing: 0.05rem;
+      background: transparent;
+
+      &::placeholder {
+        color: $text-light;
+      }
+    }
+    .bar-btn {
+      @include link;
+      border: none;
+      padding: 1rem;
+      cursor: pointer;
+      background-color: $text-400;
+      border-radius: 0 0.25rem 0.25rem 0;
+      .bar-icon {
+        width: 1.7rem;
+        height: 1.5rem;
+      }
+    }
+  }
+
+  .bar-add {
+    @include link;
+    @include col;
+
+    color: $bg;
+    height: 100%;
+    padding: 1rem;
+    margin-left: 1rem;
+    align-items: center;
+    border-radius: 0.25rem;
+    justify-content: center;
+    background-color: $primary;
+    .add-icon {
+      width: 1.7rem;
+      height: 1.4rem;
+    }
+  }
+
+  .bar-links {
+    @include row;
+    margin-left: 5rem;
+    align-items: center;
+    .bar-user {
+      @include link;
+      color: $bg;
+      font-weight: 400;
+      font-size: 1.1rem;
+      border-radius: 0.25rem;
+      letter-spacing: 0.05rem;
+      background-color: $primary;
+    }
+    .bar-logout {
+      @include link;
+      color: $bg;
+      font-weight: 400;
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      border-radius: 0.25rem;
+      background-color: $dark;
+      letter-spacing: 0.05rem;
+    }
+    .bar-login {
+      @include link;
+      color: $primary;
+      font-weight: 400;
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      border-radius: 0.25rem;
+      letter-spacing: 0.05rem;
+      background-color: $text-dark;
+    }
+    .bar-signup {
+      @include link;
+      color: $primary;
+      font-weight: 400;
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      border-radius: 0.25rem;
+      letter-spacing: 0.05rem;
+      background-color: $accent-300;
+    }
+  }
+}

@@ -217,3 +217,139 @@
   .active {
     border-radius: 0.25rem;
     background-color: #202346; }
+
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003153}}
+    .topbar {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      padding-bottom: 1rem;
+      justify-content: flex-end; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003159}}
+      .topbar .bar-search {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        align-items: center;
+        background-color: #191c38;
+        border-radius: 0.25rem 0 0 0.25rem; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003165}}
+        .topbar .bar-search .search {
+          width: 20rem;
+          border: none;
+          outline: none;
+          color: #00ffe7;
+          font-weight: 400;
+          font-size: 1.1rem;
+          padding-left: 0.8rem;
+          letter-spacing: 0.05rem;
+          background: transparent; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003175}}
+          .topbar .bar-search .search::placeholder {
+            color: #8490c2; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003180}}
+        .topbar .bar-search .bar-btn {
+          padding: 1rem 2rem;
+          color: #8490c2;
+          font-weight: 300;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          text-decoration: none;
+          letter-spacing: 0.05rem;
+          border: none;
+          padding: 1rem;
+          cursor: pointer;
+          background-color: #2d3162;
+          border-radius: 0 0.25rem 0.25rem 0; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003186}}
+          .topbar .bar-search .bar-btn .bar-icon {
+            width: 1.7rem;
+            height: 1.5rem; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003195}}
+      .topbar .bar-add {
+        padding: 1rem 2rem;
+        color: #8490c2;
+        font-weight: 300;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        text-decoration: none;
+        letter-spacing: 0.05rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #13152a;
+        height: 100%;
+        padding: 1rem;
+        margin-left: 1rem;
+        align-items: center;
+        border-radius: 0.25rem;
+        justify-content: center;
+        background-color: #00ffe7; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003206}}
+        .topbar .bar-add .add-icon {
+          width: 1.7rem;
+          height: 1.4rem; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003213}}
+      .topbar .bar-links {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5rem;
+        align-items: center; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003216}}
+        .topbar .bar-links .bar-user {
+          padding: 1rem 2rem;
+          color: #8490c2;
+          font-weight: 300;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          text-decoration: none;
+          letter-spacing: 0.05rem;
+          color: #13152a;
+          font-weight: 400;
+          font-size: 1.1rem;
+          border-radius: 0.25rem;
+          letter-spacing: 0.05rem;
+          background-color: #00ffe7; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003225}}
+          .topbar .bar-links .bar-logout {
+            padding: 1rem 2rem;
+            color: #8490c2;
+            font-weight: 300;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            text-decoration: none;
+            letter-spacing: 0.05rem;
+            color: #13152a;
+            font-weight: 400;
+            font-size: 1.1rem;
+            margin-left: 1rem;
+            border-radius: 0.25rem;
+            background-color: #191c38;
+            letter-spacing: 0.05rem; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003235}}
+            .topbar .bar-links .bar-login {
+              padding: 1rem 2rem;
+              color: #8490c2;
+              font-weight: 300;
+              font-family: 'Plus Jakarta Sans', sans-serif;
+              text-decoration: none;
+              letter-spacing: 0.05rem;
+              color: #00ffe7;
+              font-weight: 400;
+              font-size: 1.1rem;
+              margin-left: 1rem;
+              border-radius: 0.25rem;
+              letter-spacing: 0.05rem;
+              background-color: #202346; }
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003245}}
+              .topbar .bar-links .bar-signup {
+                padding: 1rem 2rem;
+                color: #8490c2;
+                font-weight: 300;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                text-decoration: none;
+                letter-spacing: 0.05rem;
+                color: #00ffe7;
+                font-weight: 400;
+                font-size: 1.1rem;
+                margin-left: 1rem;
+                border-radius: 0.25rem;
+                letter-spacing: 0.05rem;
+                background-color: #4700a3; }
