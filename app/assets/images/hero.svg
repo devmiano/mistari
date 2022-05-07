@@ -1,169 +1,169 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="872" height="663" viewBox="0 0 872 663">
-  <g id="hero" transform="translate(-568 -147)">
-    <g id="Board" transform="translate(398 72)">
-      <rect id="Container" width="428" height="443" rx="8" transform="translate(379 75)" fill="#202346"/>
-      <path id="Header" d="M8,0H420a8,8,0,0,1,8,8V34a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(379 75)" fill="#801fff"/>
-      <g id="Group_7" data-name="Group 7" transform="translate(399.777 126.942)">
-        <rect id="Container-2" data-name="Container" width="387" height="60" rx="4" transform="translate(0.223 0.058)" fill="#58a3ff"/>
-        <g id="Group_6" data-name="Group 6" transform="translate(10.589 18.533)">
-          <g id="Text_Stuff" data-name="Text Stuff">
-            <rect id="Label" width="213.598" height="9.017" rx="3" fill="#a2cbff"/>
-            <rect id="Label-2" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#a2cbff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="947" height="663" viewBox="0 0 947 663">
+  <g id="hero" transform="translate(-593 -144)">
+    <g id="hero-2" data-name="hero">
+      <g id="Board" transform="translate(498 101)">
+        <rect id="Container" width="428" height="443" rx="8" transform="translate(379 75)" fill="#4700a3"/>
+        <path id="Header" d="M8,0H420a8,8,0,0,1,8,8V34H0V8A8,8,0,0,1,8,0Z" transform="translate(379 75)" fill="#5000b8"/>
+        <g id="Group_7" data-name="Group 7" transform="translate(399.777 126.942)">
+          <rect id="Container-2" data-name="Container" width="387" height="60" rx="4" transform="translate(0.223 0.058)" fill="#58a3ff"/>
+          <g id="Group_6" data-name="Group 6" transform="translate(10.589 18.533)">
+            <g id="Text_Stuff" data-name="Text Stuff">
+              <rect id="Label" width="213.598" height="9.017" rx="3" fill="#a2cbff"/>
+              <rect id="Label-2" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#a2cbff"/>
+            </g>
+            <g id="Check" transform="translate(347.837 3.07)">
+              <circle id="Background" cx="8.953" cy="8.953" r="8.953" fill="#a2cbff"/>
+              <circle id="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
+            </g>
           </g>
-          <g id="Check" transform="translate(347.837 3.07)">
-            <circle id="Background" cx="8.953" cy="8.953" r="8.953" fill="#a2cbff"/>
-            <circle id="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
+        </g>
+        <g id="Group_8" data-name="Group 8" transform="translate(399.777 205.893)">
+          <rect id="Container-3" data-name="Container" width="387" height="59" rx="4" transform="translate(0.223 0.107)" fill="#7fdc8a"/>
+          <g id="Group_6-2" data-name="Group 6" transform="translate(10.589 17.602)">
+            <g id="Text_Stuff-2" data-name="Text Stuff">
+              <rect id="Label-3" data-name="Label" width="213.598" height="9.017" rx="3" fill="#b9f8c1"/>
+              <rect id="Label-4" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#b9f8c1"/>
+            </g>
+            <g id="Check-2" data-name="Check" transform="translate(347.837 3.07)">
+              <circle id="Background-2" data-name="Background" cx="8.953" cy="8.953" r="8.953" fill="#b9f8c1"/>
+              <circle id="Indicator-2" data-name="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_9" data-name="Group 9" transform="translate(399.777 283.806)">
+          <rect id="Container-4" data-name="Container" width="387" height="60" rx="4" transform="translate(0.223 0.194)" fill="#f5d800"/>
+          <g id="Group_6-3" data-name="Group 6" transform="translate(10.589 17.71)">
+            <g id="Text_Stuff-3" data-name="Text Stuff">
+              <rect id="Label-5" data-name="Label" width="213.598" height="9.017" rx="3" fill="#fff78b"/>
+              <rect id="Label-6" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#fff78b"/>
+            </g>
+            <g id="Check-3" data-name="Check" transform="translate(347.837 3.07)">
+              <circle id="Background-3" data-name="Background" cx="8.953" cy="8.953" r="8.953" fill="#fff78b"/>
+              <circle id="Indicator-3" data-name="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_10" data-name="Group 10" transform="translate(399.777 361.718)">
+          <rect id="Container-5" data-name="Container" width="387" height="60" rx="4" transform="translate(0.223 0.282)" fill="#f6ab51"/>
+          <g id="Group_6-4" data-name="Group 6" transform="translate(10.589 17.818)">
+            <g id="Text_Stuff-4" data-name="Text Stuff">
+              <rect id="Label-7" data-name="Label" width="213.598" height="9.017" rx="3" fill="#fed3a0"/>
+              <rect id="Label-8" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#fed3a0"/>
+            </g>
+            <g id="Check-4" data-name="Check" transform="translate(347.837 3.07)">
+              <circle id="Background-4" data-name="Background" cx="8.953" cy="8.953" r="8.953" fill="#fed3a0"/>
+              <circle id="Indicator-4" data-name="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_11" data-name="Group 11" transform="translate(399.777 439.631)">
+          <rect id="Container-6" data-name="Container" width="387" height="60" rx="4" transform="translate(0.223 0.369)" fill="#fb8998"/>
+          <g id="Group_6-5" data-name="Group 6" transform="translate(10.589 17.926)">
+            <g id="Text_Stuff-5" data-name="Text Stuff">
+              <rect id="Label-9" data-name="Label" width="213.598" height="9.017" rx="3" fill="#ffbcc5"/>
+              <rect id="Label-10" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#ffbcc5"/>
+            </g>
+            <g id="Check-5" data-name="Check" transform="translate(347.837 3.07)">
+              <circle id="Background-5" data-name="Background" cx="8.953" cy="8.953" r="8.953" fill="#ffbcc5"/>
+              <circle id="Indicator-5" data-name="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
+            </g>
           </g>
         </g>
       </g>
-      <g id="Group_8" data-name="Group 8" transform="translate(399.777 205.893)">
-        <rect id="Container-3" data-name="Container" width="387" height="59" rx="4" transform="translate(0.223 0.107)" fill="#7fdc8a"/>
-        <g id="Group_6-2" data-name="Group 6" transform="translate(10.589 17.602)">
-          <g id="Text_Stuff-2" data-name="Text Stuff">
-            <rect id="Label-3" data-name="Label" width="213.598" height="9.017" rx="3" fill="#b9f8c1"/>
-            <rect id="Label-4" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#b9f8c1"/>
+      <g id="Person" transform="translate(960 344.635)">
+        <g id="Group_3" data-name="Group 3" transform="translate(180.69 0)">
+          <g id="Head" transform="translate(0 47.745)">
+            <path id="Head-2" data-name="Head" d="M0,0,10.381,48.385C4.592,55.18.673,63.509,1.328,72.841c1.887,26.888,39.316,20.973,46.6,7.4s6.416-47.994-2.993-50.419c-3.753-.967-11.747,1.4-19.883,6.306L30.155,0Z" transform="translate(52.77 91.719) rotate(180)" fill="#b28b67"/>
           </g>
-          <g id="Check-2" data-name="Check" transform="translate(347.837 3.07)">
-            <circle id="Background-2" data-name="Background" cx="8.953" cy="8.953" r="8.953" fill="#b9f8c1"/>
-            <circle id="Indicator-2" data-name="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
-          </g>
+          <path id="hair" d="M17.985,43.579c3.974-.652,14.675-1.1,16.648-1.1,1.261,0,2.628.288,3.375-.87.612-.948.388-2.552.57-3.652.212-1.278.513-2.54.818-3.8a38.624,38.624,0,0,1,4.011-10.188A31.315,31.315,0,0,1,58.25,10.532c7.026-3.021,14.978-3.712,22.536-3.1,8.088.655,15.41,3.325,23.046,5.838a48.3,48.3,0,0,0,22.51,2.168c7.668-1.178,13.463-5.334,19.931-9.279C152.895,2.121,160.462-.52,168.29.087,175.6.654,182.331,3.671,188.374,7.7c5.653,3.771,10.318,8.308,12.951,14.693,2.833,6.869,2.831,14.408-1.828,20.479-6.753,8.8-19.289,11.075-29.719,10.848a56.781,56.781,0,0,1-17.653-3.235c-7.6-2.672-14.16-7.2-21.266-10.874a55.338,55.338,0,0,0-10.4-4.16c-3.506-.99-6.96-1.444-10.134.674-3.358,2.241-6.368,4.442-10.209,5.844A32.926,32.926,0,0,1,88.6,44.039C80.964,43.98,73.433,41.6,66.013,40c-6.051-1.3-12.525-2.6-18.694-1.346-2.574.522-6.334,1.6-7.264,4.273C55.7,45.768,61.849,65.121,57.437,79.327c-2.381,7.668-16.693,16.631-22.258,12.6-3.525-2.554-1.385-5.906,0-8.12,2.653-4.238,3.56-9.683-1.348-12.634-4.234-2.545-8.685,3.5-8.77,3.492C23.9,74.574,13.844,68.888,6.916,60.59.082,61-.955,56.489.677,52.8S12.494,44.481,17.985,43.579Z" transform="translate(4.047 0)" fill="#1c003d"/>
+        </g>
+        <g id="Group_4" data-name="Group 4" transform="translate(0 243.747)">
+          <ellipse id="Ballsy_Ball" data-name="Ballsy Ball" cx="96.745" cy="92.347" rx="96.745" ry="92.347" transform="translate(149.279 33.923)" fill="#5000b8"/>
+          <path id="Skin" d="M159.029,83.024c-8,28.028-14.088,52.691-15.626,61.9-3.669,21.962,28.221,23.242,32.437,12.327,6.38-16.521,17.518-70.8,30.9-152.789L191.443,0C175.345,35.63,163.7,66.655,159.029,83.024ZM4.712,111.817c14.77,5.838,66.495,24.109,91.441,29.277,7.169,1.486,14.117,2.865,20.649,4.113,19.417,3.707,29.476-31.322,10.775-34.013-46.571-6.7-112.6-13.625-118.245-14.4a7.2,7.2,0,0,0-.978-.067C.941,96.724-4.185,108.3,4.712,111.817Z" transform="translate(254.645 204.37) rotate(180)" fill="#b28b67"/>
+          <path id="Leg_Back" data-name="Leg Back" d="M80.109,120.506a16.328,16.328,0,0,0-.217,4.163L0,165.339v8.854H9.5S125.44,144.65,127.99,136.327c.018-.059.034-.117.048-.176q.06-.078.117-.157c15.318-21.066,24.492-123.913,27.5-131.614L126.305,0C115.078,41.635,79.155,70.64,80.109,120.506Z" transform="translate(205.818 174.193) rotate(180)" fill="#ff99e5"/>
+          <path id="Leg_Front" data-name="Leg Front" d="M39.046,23.475l24.131,8.277c-7.308,1.463-14.042,2.769-19.8,3.779C6.168,42.058-4.682,61.975,1.733,105.43H70.287c11.2-3.217,69.4-27.623,99.59-40.6,19.984-8.592,13.685-39.563,2.367-47.623a1.1,1.1,0,0,0-.628-.981C129.748-1.129,93.9-.286,70.354.556,59.663.939,51.511,1.322,46.487,0Z" transform="translate(262.357 105.43) rotate(180)" fill="#ff66d8"/>
+          <path id="shoe" d="M5.621,20.061A2.513,2.513,0,0,1,2.4,18.367L0,9.919A80.715,80.715,0,0,1,1.132,0H72s2.762,9.132-3.189,9.86-9.888,1.315-9.888,1.315L25.983,25.859a1.256,1.256,0,0,1-1.673-.669l-2.117-5.136s-5.509-2.571-8.954-2.571Z" transform="matrix(-0.438, 0.899, -0.899, -0.438, 262.293, 94.967)" fill="#f5d800"/>
+          <path id="shoe-2" data-name="shoe" d="M67.017,6.238a2.513,2.513,0,0,1,3.223,1.694l2.4,8.449A80.715,80.715,0,0,1,71.5,26.3H.64s-2.762-9.132,3.189-9.86,9.888-1.315,9.888-1.315L46.654.441a1.256,1.256,0,0,1,1.673.669l2.117,5.136S55.954,8.816,59.4,8.816Z" transform="translate(0 189.805)" fill="#f5d800"/>
+        </g>
+        <g id="Group_2" data-name="Group 2" transform="translate(55.467 111.822)">
+          <path id="Skin-2" data-name="Skin" d="M39.94,4.69c-1.713,2.881-3.66,5.761-9.577,4.292C19.807,6.36,10.854-.368,1.01,8.706c-1.21,1.115-2.1,4.6,2.031,6.391,10.281,4.456,25.47,12.8,27.933,16.039q5.039,6.627,31.23,75.66l25.747-5.108Q49.111,29.307,46.293,24.965C42.065,18.45,46.01,6.511,47.467.224A7.932,7.932,0,0,0,45.675,0C42.575,0,41.336,2.344,39.94,4.69ZM246.26,112.3,291.785,132.3q11.963,11.921,23.1,18.121c2.221.707,6.015.92,1.966-4.992s-8.04-12.314-6.423-14.386,6.3.215,8.154-3.155q1.852-3.37-23.694-8.062L260.8,93.68Z" transform="translate(318.712 209.823) rotate(180)" fill="#b28b67"/>
+          <path id="Coat_Back" data-name="Coat Back" d="M0,124.135l10.661,2.8c25.574-20.805,40-74.9,56.348-80.8,15.455-5.576,35.929,2.919,60.171,14.093l9.163-16.455C115.754,17.185,69.126-7.839,48.451,2.309,15.4,18.533,2.22,85.658,0,124.135Z" transform="matrix(-0.996, 0.087, -0.087, -0.996, 171.605, 130.362)" fill="#9747ff"/>
+          <path id="Shirt" d="M99.571,143.233H3.44c-4.393,0-3.565-6.343-2.93-9.544C7.839,96.75,36.447,56.931,36.447,4.348L64.176,0C87.111,36.887,95.042,82.3,99.571,143.233Z" transform="translate(108.575)" fill="#f5d800"/>
+          <path id="Coat_Front" data-name="Coat Front" d="M0,3.946Q19.469,124.692,112.762,182.182H123.74S161.08,54.9,144.329,12.564H57.8c1.369,20.652,5.759,42.491,11.772,63.786Q40.171,23.326,20.149,0Z" transform="translate(287.301 182.182) rotate(180)" fill="#801fff"/>
         </g>
       </g>
-      <g id="Group_9" data-name="Group 9" transform="translate(399.777 283.806)">
-        <rect id="Container-4" data-name="Container" width="387" height="60" rx="4" transform="translate(0.223 0.194)" fill="#f5d800"/>
-        <g id="Group_6-3" data-name="Group 6" transform="translate(10.589 17.71)">
-          <g id="Text_Stuff-3" data-name="Text Stuff">
-            <rect id="Label-5" data-name="Label" width="213.598" height="9.017" rx="3" fill="#fff78b"/>
-            <rect id="Label-6" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#fff78b"/>
-          </g>
-          <g id="Check-3" data-name="Check" transform="translate(347.837 3.07)">
-            <circle id="Background-3" data-name="Background" cx="8.953" cy="8.953" r="8.953" fill="#fff78b"/>
-            <circle id="Indicator-3" data-name="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
-          </g>
+      <g id="Clock" transform="translate(1348 162)">
+        <path id="Clock_Frame" data-name="Clock Frame" d="M96,0A96,96,0,1,1,0,96,96,96,0,0,1,96,0Z" fill="#58a3ff"/>
+        <ellipse id="Time" cx="5" cy="5.5" rx="5" ry="5.5" transform="translate(91 14)" fill="#a2cbff"/>
+        <ellipse id="Time-2" data-name="Time" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(14 91)" fill="#a2cbff"/>
+        <ellipse id="Time-3" data-name="Time" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(167 91)" fill="#a2cbff"/>
+        <ellipse id="Time-4" data-name="Time" cx="5" cy="5.5" rx="5" ry="5.5" transform="translate(91 167)" fill="#a2cbff"/>
+        <path id="Hand" d="M3.623,0,7.245,63.4H0Z" transform="translate(92.377 30.792)" fill="#0071fd"/>
+        <path id="Hand-2" data-name="Hand" d="M3.623,0,7.245,43.472H0Z" transform="translate(130.619 125.496) rotate(135)" fill="#0071fd"/>
+        <circle id="Time-5" data-name="Time" cx="7" cy="7" r="7" transform="translate(89 89)" fill="#58a3ff"/>
+      </g>
+      <g id="Hanging_Lamp" data-name="Hanging Lamp" transform="translate(668 144)">
+        <rect id="Wire" width="5" height="160" transform="translate(47)" fill="#fb8998"/>
+        <g id="Light" transform="translate(0 152.673)">
+          <ellipse id="Hanging_Lamp_Light" data-name="Hanging Lamp Light" cx="42.5" cy="22.5" rx="42.5" ry="22.5" transform="translate(7 18)" fill="#ffbcc5"/>
+          <path id="Hanging_Lamp-2" data-name="Hanging Lamp" d="M99,50C99,22.386,76.838,0,49.5,0S0,22.386,0,50" transform="translate(0)" fill="#fb8998"/>
         </g>
       </g>
-      <g id="Group_10" data-name="Group 10" transform="translate(399.777 361.718)">
-        <rect id="Container-5" data-name="Container" width="387" height="60" rx="4" transform="translate(0.223 0.282)" fill="#f6ab51"/>
-        <g id="Group_6-4" data-name="Group 6" transform="translate(10.589 17.818)">
-          <g id="Text_Stuff-4" data-name="Text Stuff">
-            <rect id="Label-7" data-name="Label" width="213.598" height="9.017" rx="3" fill="#fed3a0"/>
-            <rect id="Label-8" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#fed3a0"/>
-          </g>
-          <g id="Check-4" data-name="Check" transform="translate(347.837 3.07)">
-            <circle id="Background-4" data-name="Background" cx="8.953" cy="8.953" r="8.953" fill="#fed3a0"/>
-            <circle id="Indicator-4" data-name="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
-          </g>
+      <g id="Hanging_Lamp-3" data-name="Hanging Lamp" transform="translate(769 144)">
+        <rect id="Wire-2" data-name="Wire" width="5" height="160" transform="translate(47)" fill="#f6ab51"/>
+        <g id="Light-2" data-name="Light" transform="translate(13.715 148.467)">
+          <ellipse id="Hanging_Lamp_Light-2" data-name="Hanging Lamp Light" cx="30.724" cy="16.266" rx="30.724" ry="16.266" transform="translate(5.06 14.675)" fill="#fed3a0"/>
+          <path id="Hanging_Lamp-4" data-name="Hanging Lamp" d="M71.57,36.146A35.967,35.967,0,0,0,35.785,0,35.967,35.967,0,0,0,0,36.146" transform="translate(0)" fill="#f6ab51"/>
         </g>
       </g>
-      <g id="Group_11" data-name="Group 11" transform="translate(399.777 439.631)">
-        <rect id="Container-6" data-name="Container" width="387" height="60" rx="4" transform="translate(0.223 0.369)" fill="#fb8998"/>
-        <g id="Group_6-5" data-name="Group 6" transform="translate(10.589 17.926)">
-          <g id="Text_Stuff-5" data-name="Text Stuff">
-            <rect id="Label-9" data-name="Label" width="213.598" height="9.017" rx="3" fill="#ffbcc5"/>
-            <rect id="Label-10" data-name="Label" width="143.374" height="9.017" rx="3" transform="translate(0 15.029)" fill="#ffbcc5"/>
-          </g>
-          <g id="Check-5" data-name="Check" transform="translate(347.837 3.07)">
-            <circle id="Background-5" data-name="Background" cx="8.953" cy="8.953" r="8.953" fill="#ffbcc5"/>
-            <circle id="Indicator-5" data-name="Indicator" cx="3.837" cy="3.837" r="3.837" transform="translate(5.116 5.116)" fill="#f2f2f2"/>
-          </g>
+      <g id="Lamp" transform="translate(1367 395)">
+        <path id="Body" d="M88,394H80V66.424a11.922,11.922,0,0,0-3.513-8.484L27.055,8.488a4.1,4.1,0,0,0-5.658,0L2.829,27.063l-5.658-5.656L15.739,2.832a12,12,0,0,1,16.974,0L82.145,52.285A19.87,19.87,0,0,1,88,66.424Z" transform="translate(60 12)" fill="#f5d800"/>
+        <rect id="Lamp_Base" data-name="Lamp Base" width="59" height="7" rx="3" transform="translate(114 405)" fill="#f5d800"/>
+        <g id="Lamp_Top" data-name="Lamp Top" transform="translate(48.79 1) rotate(45)">
+          <path id="Lamp-2" data-name="Lamp" d="M33,0h0A33,33,0,0,1,66,33V61a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V33A33,33,0,0,1,33,0Z" transform="translate(0.03 1.384)" fill="#f5d800"/>
+          <ellipse id="Lamp-3" data-name="Lamp" cx="33" cy="6.5" rx="33" ry="6.5" transform="translate(0.209 54.945)" fill="#fff78b"/>
         </g>
       </g>
-    </g>
-    <g id="Person" transform="translate(860 347.635)">
-      <g id="Group_3" data-name="Group 3" transform="translate(180.69 0)">
-        <g id="Head" transform="translate(0 47.745)">
-          <path id="Head-2" data-name="Head" d="M0,0,10.381,48.385C4.592,55.18.673,63.509,1.328,72.841c1.887,26.888,39.316,20.973,46.6,7.4s6.416-47.994-2.993-50.419c-3.753-.967-11.747,1.4-19.883,6.306L30.155,0Z" transform="translate(52.77 91.719) rotate(180)" fill="#b28b67"/>
+      <g id="Big_Leaf_Plant" data-name="Big Leaf Plant" transform="translate(593 568)">
+        <g id="Big_Ass_Leaf" data-name="Big Ass Leaf" transform="translate(22)">
+          <path id="leaf" d="M24.258.173a16.915,16.915,0,0,1,8.586.9c5.665,2.4,7.275,9.1,7.2,14.536-.084,5.855-1.327,12.249,3.124,16.966,2.046,2.169,4.591,3.828,6.6,6.037a28.536,28.536,0,0,1,5.078,7.96c2.29,5.326,3.414,11.59,1.32,17.177-1.844,4.919-6.483,9.359-5.48,14.953C51.729,84.543,57.612,89,61.29,93.351c4.163,4.919,8,11.205,8.625,17.656.6,6.182-2.087,12.434-6.217,17.107C55.448,137.451,43.045,142.028,30.54,142c-5.31-.012-11.321-.252-15.9-3.105a8.763,8.763,0,0,1-3.005-3.247,10.586,10.586,0,0,0-2.906-2.908,17.25,17.25,0,0,1-5.535-7.392c-4.538-11.233-.911-25.129,5.441-35.1,1.505-2.363,2.737-4.637,2.006-7.454C9.874,79.848,8,77.2,6.34,74.669a65.318,65.318,0,0,1-4.792-7.582A17.2,17.2,0,0,1,.066,58.2,30.237,30.237,0,0,1,6.578,42.336C10,37.83,14.022,33.518,14.031,27.615c.01-6.257-4.173-11.824-2.391-18.186a12.123,12.123,0,0,1,4.609-6.916C18.539,1,21.564.5,24.258.173Z" transform="translate(1 1)" fill="#baf2c1"/>
+          <path id="middle_thing" data-name="middle thing" d="M1.386,1.176A1.442,1.442,0,0,1,3.222.051c1.033.289,1.013,1.254.986,2.114a28.41,28.41,0,0,0,.934,7.776C6.462,15.274,8.9,20.186,10.836,25.308s2.839,10.4,1.705,15.816C11.473,46.23,9.795,51.2,8.7,56.315c-.964,4.506-1.989,9.257-.522,13.751,1.412,4.326,4.534,7.849,6.783,11.758a55.439,55.439,0,0,1,6.995,26.31,49.2,49.2,0,0,1-.983,12.828c-.573,2.423-1.343,5.7-3.419,7.37-.957.771-2.595,1.038-3.4-.1-.757-1.071-.093-2.73.147-3.872a58.7,58.7,0,0,0,1-15.015,54.212,54.212,0,0,0-2.346-14.36A48.6,48.6,0,0,0,6.84,83.032C4.252,79.191,1.562,75.341.493,70.789c-1.086-4.623-.2-9.327.976-13.862,1.248-4.8,2.883-9.455,4.573-14.122A24.78,24.78,0,0,0,7.363,29.2C5.567,19.794.76,10.968,1.386,1.176Z" transform="translate(22 10)" fill="#7fdc8a"/>
         </g>
-        <path id="hair" d="M17.985,43.579c3.974-.652,14.675-1.1,16.648-1.1,1.261,0,2.628.288,3.375-.87.612-.948.388-2.552.57-3.652.212-1.278.513-2.54.818-3.8a38.624,38.624,0,0,1,4.011-10.188A31.315,31.315,0,0,1,58.25,10.532c7.026-3.021,14.978-3.712,22.536-3.1,8.088.655,15.41,3.325,23.046,5.838a48.3,48.3,0,0,0,22.51,2.168c7.668-1.178,13.463-5.334,19.931-9.279C152.895,2.121,160.462-.52,168.29.087,175.6.654,182.331,3.671,188.374,7.7c5.653,3.771,10.318,8.308,12.951,14.693,2.833,6.869,2.831,14.408-1.828,20.479-6.753,8.8-19.289,11.075-29.719,10.848a56.781,56.781,0,0,1-17.653-3.235c-7.6-2.672-14.16-7.2-21.266-10.874a55.338,55.338,0,0,0-10.4-4.16c-3.506-.99-6.96-1.444-10.134.674-3.358,2.241-6.368,4.442-10.209,5.844A32.926,32.926,0,0,1,88.6,44.039C80.964,43.98,73.433,41.6,66.013,40c-6.051-1.3-12.525-2.6-18.694-1.346-2.574.522-6.334,1.6-7.264,4.273C55.7,45.768,61.849,65.121,57.437,79.327c-2.381,7.668-16.693,16.631-22.258,12.6-3.525-2.554-1.385-5.906,0-8.12,2.653-4.238,3.56-9.683-1.348-12.634-4.234-2.545-8.685,3.5-8.77,3.492C23.9,74.574,13.844,68.888,6.916,60.59.082,61-.955,56.489.677,52.8S12.494,44.481,17.985,43.579Z" transform="translate(4.047 0)" fill="#191c38"/>
-      </g>
-      <g id="Group_4" data-name="Group 4" transform="translate(0 243.747)">
-        <g id="Seat" transform="translate(149.279 33.923)">
-          <ellipse id="Ballsy_Ball" data-name="Ballsy Ball" cx="96.745" cy="92.347" rx="96.745" ry="92.347" fill="#202346"/>
+        <g id="Big_Ass_Leaf-2" data-name="Big Ass Leaf" transform="translate(32 11)">
+          <path id="leaf-2" data-name="leaf" d="M90.892,1.582a21.492,21.492,0,0,1,9.592,5.536c5.373,5.791,3.724,14.543.758,20.935-3.193,6.88-8.031,13.8-5.3,21.69,1.254,3.629,3.362,6.916,4.551,10.573a36.871,36.871,0,0,1,1.749,12.056c-.129,7.49-2.122,15.483-7.531,21-4.763,4.859-12.551,7.7-14.332,14.833-1.858,7.445,2.684,15.781,4.7,22.835,2.283,7.983,3.455,17.411.784,25.367-2.559,7.625-9.02,13.619-16.334,17-14.613,6.75-31.58,5.712-46.232-.828-6.221-2.777-13.145-6.188-17.011-11.946a11.264,11.264,0,0,1-1.809-5.4A13.591,13.591,0,0,0,2.6,150.278,22.24,22.24,0,0,1,.02,138.656c.615-15.645,12.214-30.192,24.936-38.684,3.015-2.012,5.662-4.06,6.293-7.772.659-3.874-.139-7.986-.748-11.839-.6-3.807-1.537-7.6-1.612-11.459a22.446,22.446,0,0,1,2.959-11.283c3.6-6.647,9.379-11.689,16.021-15.372,6.4-3.547,13.392-6.555,16.523-13.532,3.319-7.4,1.355-16.154,6.807-22.751C73.458,3.233,76.625.807,80.262.182,83.749-.417,87.558.57,90.892,1.582Z" transform="translate(0 0)" fill="#cbffd2"/>
+          <path id="middle_thing-2" data-name="middle thing" d="M51.651.811A1.838,1.838,0,0,1,54.387.44c1.057.883.528,2.016.046,3.02a37.22,37.22,0,0,0-2.98,9.7c-1.248,7.006-.968,14.1-1.389,21.182s-2.128,13.805-6.289,19.624c-3.923,5.486-8.49,10.5-12.446,15.977-3.487,4.831-7.174,9.92-7.812,16.012-.614,5.863,1.191,11.672,1.773,17.48,1.2,12.023-1.084,23.737-5.6,34.823a64.286,64.286,0,0,1-7.867,14.676c-1.939,2.569-4.554,6.043-7.858,6.936-1.524.412-3.578-.131-3.922-1.906-.323-1.665,1.321-3.282,2.2-4.508A76.711,76.711,0,0,0,11.275,136.2a71.04,71.04,0,0,0,4.778-18.235,63.555,63.555,0,0,0-.895-17.357c-1.014-5.906-2.143-11.875-1.009-17.826,1.151-6.044,4.647-11.152,8.4-15.9,3.971-5.026,8.323-9.687,12.743-14.327a32.357,32.357,0,0,0,8.673-15.424C46.79,25.049,45.791,12.078,51.651.811Z" transform="translate(32 13)" fill="#7fdc8a"/>
         </g>
-        <path id="Skin" d="M159.029,83.024c-8,28.028-14.088,52.691-15.626,61.9-3.669,21.962,28.221,23.242,32.437,12.327,6.38-16.521,17.518-70.8,30.9-152.789L191.443,0C175.345,35.63,163.7,66.655,159.029,83.024ZM4.712,111.817c14.77,5.838,66.495,24.109,91.441,29.277,7.169,1.486,14.117,2.865,20.649,4.113,19.417,3.707,29.476-31.322,10.775-34.013-46.571-6.7-112.6-13.625-118.245-14.4a7.2,7.2,0,0,0-.978-.067C.941,96.724-4.185,108.3,4.712,111.817Z" transform="translate(254.645 204.37) rotate(180)" fill="#b28b67"/>
-        <path id="Leg_Back" data-name="Leg Back" d="M80.109,120.506a16.328,16.328,0,0,0-.217,4.163L0,165.339v8.854H9.5S125.44,144.65,127.99,136.327c.018-.059.034-.117.048-.176q.06-.078.117-.157c15.318-21.066,24.492-123.913,27.5-131.614L126.305,0C115.078,41.635,79.155,70.64,80.109,120.506Z" transform="translate(205.818 174.193) rotate(180)" fill="#ffa9fd"/>
-        <path id="Leg_Front" data-name="Leg Front" d="M39.046,23.475l24.131,8.277c-7.308,1.463-14.042,2.769-19.8,3.779C6.168,42.058-4.682,61.975,1.733,105.43H70.287c11.2-3.217,69.4-27.623,99.59-40.6,19.984-8.592,13.685-39.563,2.367-47.623a1.1,1.1,0,0,0-.628-.981C129.748-1.129,93.9-.286,70.354.556,59.663.939,51.511,1.322,46.487,0Z" transform="translate(262.357 105.43) rotate(180)" fill="#ff66d8"/>
-        <path id="shoe" d="M5.621,20.061A2.513,2.513,0,0,1,2.4,18.367L0,9.919A80.715,80.715,0,0,1,1.132,0H72s2.762,9.132-3.189,9.86-9.888,1.315-9.888,1.315L25.983,25.859a1.256,1.256,0,0,1-1.673-.669l-2.117-5.136s-5.509-2.571-8.954-2.571Z" transform="matrix(-0.438, 0.899, -0.899, -0.438, 262.293, 94.967)" fill="#f5d800"/>
-        <path id="shoe-2" data-name="shoe" d="M67.017,6.238a2.513,2.513,0,0,1,3.223,1.694l2.4,8.449A80.715,80.715,0,0,1,71.5,26.3H.64s-2.762-9.132,3.189-9.86,9.888-1.315,9.888-1.315L46.654.441a1.256,1.256,0,0,1,1.673.669l2.117,5.136S55.954,8.816,59.4,8.816Z" transform="translate(0 189.805)" fill="#f5d800"/>
+        <g id="Big_Ass_Leaf-3" data-name="Big Ass Leaf" transform="translate(0 57)">
+          <path id="leaf-3" data-name="leaf" d="M13.306,0C19.2,0,24.382,3.124,27.953,7.558c4.18,5.19,5.024,11.528,6.721,17.714A15.813,15.813,0,0,0,39.517,33.5c2.315,1.9,5.255,2.283,8.026,3.212A18.73,18.73,0,0,1,59.321,48.5c2.155,6.659-.128,13.374.265,20.122.361,6.2,6.471,10.064,11.387,13.035,4.848,2.93,9.215,5.672,10.675,11.379,1.548,6.053,2.068,12.809-.077,18.788-3.57,9.956-14.019,14.34-24.116,15.02-9.163.617-20.684-.352-27.565-7-4.118-3.98-5.609-9.547-5.424-15.085a45.92,45.92,0,0,1,1.679-10.184,45.944,45.944,0,0,0,1.71-7.145c.64-6.484-5.354-7.73-10.455-9.51A24.88,24.88,0,0,1,3.224,65.425C.285,59.881-.948,53.658.814,47.554A20.863,20.863,0,0,1,5.559,39.2c.974-1.059,2.348-1.942,3.227-3.054a4.12,4.12,0,0,0,.359-3.6C7.837,26.931,3.762,22.278,2.3,16.668.989,11.605,1.767,5.3,6.4,2.038A12.089,12.089,0,0,1,13.306,0Z" transform="translate(0 0)" fill="#e0ffe3"/>
+          <path id="middle_thing-3" data-name="middle thing" d="M3.338.641C9.585,7.3,11.283,16.325,11.781,25.076c.279,4.907-.011,10.083,1.43,14.843,1.234,4.074,4.126,7.188,7.106,10.131,6,5.925,12.693,11.948,14.448,20.523,1.03,5.032.335,10.23,1.758,15.207a41.827,41.827,0,0,0,6.343,12.788c2.231,3.076,5.138,5.431,7.577,8.3.744.875,1.81,2.164,1.5,3.4-.359,1.447-2.2,1.905-3.511,1.678-3.049-.53-5.616-3.442-7.61-5.558a47.877,47.877,0,0,1-7.407-10.159,42.71,42.71,0,0,1-4.8-13.2c-.8-4.827-.4-9.858-2.223-14.491-3.067-7.8-10.5-12.4-15.883-18.471-6.7-7.571-5.7-16.993-5.015-26.305.377-5.118.752-10.9-1.834-15.57C2.672,6.406.471,4.743.047,2.715-.342.858,1.78-1.019,3.338.641Z" transform="translate(18 14)" fill="#7fdc8a"/>
+        </g>
+        <path id="Base" d="M0,0C0,38.058,6.211,58,39,58S78,38.058,78,0Z" transform="translate(28 181)" fill="#7fdc8a"/>
       </g>
-      <g id="Group_2" data-name="Group 2" transform="translate(55.467 111.822)">
-        <path id="Skin-2" data-name="Skin" d="M39.94,4.69c-1.713,2.881-3.66,5.761-9.577,4.292C19.807,6.36,10.854-.368,1.01,8.706c-1.21,1.115-2.1,4.6,2.031,6.391,10.281,4.456,25.47,12.8,27.933,16.039q5.039,6.627,31.23,75.66l25.747-5.108Q49.111,29.307,46.293,24.965C42.065,18.45,46.01,6.511,47.467.224A7.932,7.932,0,0,0,45.675,0C42.575,0,41.336,2.344,39.94,4.69ZM246.26,112.3,291.785,132.3q11.963,11.921,23.1,18.121c2.221.707,6.015.92,1.966-4.992s-8.04-12.314-6.423-14.386,6.3.215,8.154-3.155q1.852-3.37-23.694-8.062L260.8,93.68Z" transform="translate(318.712 209.823) rotate(180)" fill="#b28b67"/>
-        <path id="Coat_Back" data-name="Coat Back" d="M0,124.135l10.661,2.8c25.574-20.805,40-74.9,56.348-80.8,15.455-5.576,35.929,2.919,60.171,14.093l9.163-16.455C115.754,17.185,69.126-7.839,48.451,2.309,15.4,18.533,2.22,85.658,0,124.135Z" transform="matrix(-0.996, 0.087, -0.087, -0.996, 171.605, 130.362)" fill="#9747ff"/>
-        <path id="Shirt" d="M99.571,143.233H3.44c-4.393,0-3.565-6.343-2.93-9.544C7.839,96.75,36.447,56.931,36.447,4.348L64.176,0C87.111,36.887,95.042,82.3,99.571,143.233Z" transform="translate(108.575)" fill="#f5d800"/>
-        <path id="Coat_Front" data-name="Coat Front" d="M0,3.946Q19.469,124.692,112.762,182.182H123.74S161.08,54.9,144.329,12.564H57.8c1.369,20.652,5.759,42.491,11.772,63.786Q40.171,23.326,20.149,0Z" transform="translate(287.301 182.182) rotate(180)" fill="#801fff"/>
+      <g id="Table" transform="translate(717 550)">
+        <g id="Lamp-4" data-name="Lamp" transform="translate(23)">
+          <rect id="Lamp_Base-2" data-name="Lamp Base" width="38" height="9" rx="2" transform="translate(21 144)" fill="#58a3ff"/>
+          <path id="Lamp_Body" data-name="Lamp Body" d="M15.5,75a15.5,15.5,0,0,1,0-31H23c6.44-20.872,7.217-44,7.217-44h4.566A167.709,167.709,0,0,0,42,44h6.5a15.5,15.5,0,0,1,0,31Z" transform="translate(8 71)" fill="#a2cbff"/>
+          <path id="Shade" d="M4.622,1.679S21.811,0,39,0,73.378,1.679,73.378,1.679L78,81.133S58.5,83,39,83,0,81.133,0,81.133Z" fill="#58a3ff"/>
+        </g>
+        <path id="Table-2" data-name="Table" d="M104,104V22H21v82H0V0H125V104Z" transform="translate(0 153)" fill="#a2cbff"/>
       </g>
-    </g>
-    <g id="Clock" transform="translate(1248 147)">
-      <circle id="Clock_Frame" data-name="Clock Frame" cx="96" cy="96" r="96" fill="#202346"/>
-      <ellipse id="Time" cx="5" cy="5.5" rx="5" ry="5.5" transform="translate(91 14)" fill="#58a3ff"/>
-      <ellipse id="Time-2" data-name="Time" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(14 91)" fill="#58a3ff"/>
-      <ellipse id="Time-3" data-name="Time" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(167 91)" fill="#58a3ff"/>
-      <ellipse id="Time-4" data-name="Time" cx="5" cy="5.5" rx="5" ry="5.5" transform="translate(91 167)" fill="#58a3ff"/>
-      <path id="Hand" d="M3.623,0,7.245,63.4H0Z" transform="translate(92.377 30.792)" fill="#58a3ff"/>
-      <path id="Hand-2" data-name="Hand" d="M3.623,0,7.245,43.472H0Z" transform="translate(130.619 125.496) rotate(135)" fill="#58a3ff"/>
-      <circle id="Time-5" data-name="Time" cx="7" cy="7" r="7" transform="translate(89 89)" fill="#202346"/>
-    </g>
-    <g id="Hanging_Lamp" data-name="Hanging Lamp" transform="translate(568 147)">
-      <rect id="Wire" width="5" height="160" transform="translate(47)" fill="#202346"/>
-      <g id="Light" transform="translate(0 152.673)">
-        <ellipse id="Hanging_Lamp_Light" data-name="Hanging Lamp Light" cx="42.5" cy="22.5" rx="42.5" ry="22.5" transform="translate(7 12)" fill="#fed3a0"/>
-        <path id="Hanging_Lamp-2" data-name="Hanging Lamp" d="M99,50C99,22.386,76.838,0,49.5,0S0,22.386,0,50" transform="translate(0)" fill="#f6ab51"/>
-      </g>
-    </g>
-    <g id="Hanging_Lamp-3" data-name="Hanging Lamp" transform="translate(669 147)">
-      <rect id="Wire-2" data-name="Wire" width="5" height="160" transform="translate(47)" fill="#202346"/>
-      <g id="Light-2" data-name="Light" transform="translate(13.715 148.467)">
-        <ellipse id="Hanging_Lamp_Light-2" data-name="Hanging Lamp Light" cx="30.724" cy="16.266" rx="30.724" ry="16.266" transform="translate(5.06 8.675)" fill="#fff78b"/>
-        <path id="Hanging_Lamp-4" data-name="Hanging Lamp" d="M71.57,36.146A35.967,35.967,0,0,0,35.785,0,35.967,35.967,0,0,0,0,36.146" transform="translate(0)" fill="#f5d800"/>
-      </g>
-    </g>
-    <g id="Lamp" transform="translate(1267 398)">
-      <path id="Body" d="M88,394H80V66.424a11.922,11.922,0,0,0-3.513-8.484L27.055,8.488a4.1,4.1,0,0,0-5.658,0L2.829,27.063l-5.658-5.656L15.739,2.832a12,12,0,0,1,16.974,0L82.145,52.285A19.87,19.87,0,0,1,88,66.424Z" transform="translate(60 12)" fill="#202346"/>
-      <rect id="Lamp_Base" data-name="Lamp Base" width="59" height="7" rx="3" transform="translate(114 405)" fill="#202346"/>
-      <g id="Lamp_Top" data-name="Lamp Top" transform="translate(48.79 1) rotate(45)">
-        <path id="Lamp-2" data-name="Lamp" d="M33,0h0A33,33,0,0,1,66,33V61a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V33A33,33,0,0,1,33,0Z" transform="translate(0.03 1.384)" fill="#f5d800"/>
-        <ellipse id="Lamp-3" data-name="Lamp" cx="33" cy="6.5" rx="33" ry="6.5" transform="translate(0.209 54.945)" fill="#fff78b"/>
-      </g>
-    </g>
-    <g id="Big_Leaf_Plant" data-name="Big Leaf Plant" transform="translate(568 571)">
-      <g id="Big_Ass_Leaf" data-name="Big Ass Leaf" transform="translate(22)">
-        <path id="leaf" d="M24.258.173a16.915,16.915,0,0,1,8.586.9c5.665,2.4,7.275,9.1,7.2,14.536-.084,5.855-1.327,12.249,3.124,16.966,2.046,2.169,4.591,3.828,6.6,6.037a28.536,28.536,0,0,1,5.078,7.96c2.29,5.326,3.414,11.59,1.32,17.177-1.844,4.919-6.483,9.359-5.48,14.953C51.729,84.543,57.612,89,61.29,93.351c4.163,4.919,8,11.205,8.625,17.656.6,6.182-2.087,12.434-6.217,17.107C55.448,137.451,43.045,142.028,30.54,142c-5.31-.012-11.321-.252-15.9-3.105a8.763,8.763,0,0,1-3.005-3.247,10.586,10.586,0,0,0-2.906-2.908,17.25,17.25,0,0,1-5.535-7.392c-4.538-11.233-.911-25.129,5.441-35.1,1.505-2.363,2.737-4.637,2.006-7.454C9.874,79.848,8,77.2,6.34,74.669a65.318,65.318,0,0,1-4.792-7.582A17.2,17.2,0,0,1,.066,58.2,30.237,30.237,0,0,1,6.578,42.336C10,37.83,14.022,33.518,14.031,27.615c.01-6.257-4.173-11.824-2.391-18.186a12.123,12.123,0,0,1,4.609-6.916C18.539,1,21.564.5,24.258.173Z" transform="translate(1 1)" fill="#baf2c1"/>
-        <path id="middle_thing" data-name="middle thing" d="M1.386,1.176A1.442,1.442,0,0,1,3.222.051c1.033.289,1.013,1.254.986,2.114a28.41,28.41,0,0,0,.934,7.776C6.462,15.274,8.9,20.186,10.836,25.308s2.839,10.4,1.705,15.816C11.473,46.23,9.795,51.2,8.7,56.315c-.964,4.506-1.989,9.257-.522,13.751,1.412,4.326,4.534,7.849,6.783,11.758a55.439,55.439,0,0,1,6.995,26.31,49.2,49.2,0,0,1-.983,12.828c-.573,2.423-1.343,5.7-3.419,7.37-.957.771-2.595,1.038-3.4-.1-.757-1.071-.093-2.73.147-3.872a58.7,58.7,0,0,0,1-15.015,54.212,54.212,0,0,0-2.346-14.36A48.6,48.6,0,0,0,6.84,83.032C4.252,79.191,1.562,75.341.493,70.789c-1.086-4.623-.2-9.327.976-13.862,1.248-4.8,2.883-9.455,4.573-14.122A24.78,24.78,0,0,0,7.363,29.2C5.567,19.794.76,10.968,1.386,1.176Z" transform="translate(22 10)" fill="#7fdc8a"/>
-      </g>
-      <g id="Big_Ass_Leaf-2" data-name="Big Ass Leaf" transform="translate(32 11)">
-        <path id="leaf-2" data-name="leaf" d="M90.892,1.582a21.492,21.492,0,0,1,9.592,5.536c5.373,5.791,3.724,14.543.758,20.935-3.193,6.88-8.031,13.8-5.3,21.69,1.254,3.629,3.362,6.916,4.551,10.573a36.871,36.871,0,0,1,1.749,12.056c-.129,7.49-2.122,15.483-7.531,21-4.763,4.859-12.551,7.7-14.332,14.833-1.858,7.445,2.684,15.781,4.7,22.835,2.283,7.983,3.455,17.411.784,25.367-2.559,7.625-9.02,13.619-16.334,17-14.613,6.75-31.58,5.712-46.232-.828-6.221-2.777-13.145-6.188-17.011-11.946a11.264,11.264,0,0,1-1.809-5.4A13.591,13.591,0,0,0,2.6,150.278,22.24,22.24,0,0,1,.02,138.656c.615-15.645,12.214-30.192,24.936-38.684,3.015-2.012,5.662-4.06,6.293-7.772.659-3.874-.139-7.986-.748-11.839-.6-3.807-1.537-7.6-1.612-11.459a22.446,22.446,0,0,1,2.959-11.283c3.6-6.647,9.379-11.689,16.021-15.372,6.4-3.547,13.392-6.555,16.523-13.532,3.319-7.4,1.355-16.154,6.807-22.751C73.458,3.233,76.625.807,80.262.182,83.749-.417,87.558.57,90.892,1.582Z" transform="translate(0 0)" fill="#cbffd2"/>
-        <path id="middle_thing-2" data-name="middle thing" d="M51.651.811A1.838,1.838,0,0,1,54.387.44c1.057.883.528,2.016.046,3.02a37.22,37.22,0,0,0-2.98,9.7c-1.248,7.006-.968,14.1-1.389,21.182s-2.128,13.805-6.289,19.624c-3.923,5.486-8.49,10.5-12.446,15.977-3.487,4.831-7.174,9.92-7.812,16.012-.614,5.863,1.191,11.672,1.773,17.48,1.2,12.023-1.084,23.737-5.6,34.823a64.286,64.286,0,0,1-7.867,14.676c-1.939,2.569-4.554,6.043-7.858,6.936-1.524.412-3.578-.131-3.922-1.906-.323-1.665,1.321-3.282,2.2-4.508A76.711,76.711,0,0,0,11.275,136.2a71.04,71.04,0,0,0,4.778-18.235,63.555,63.555,0,0,0-.895-17.357c-1.014-5.906-2.143-11.875-1.009-17.826,1.151-6.044,4.647-11.152,8.4-15.9,3.971-5.026,8.323-9.687,12.743-14.327a32.357,32.357,0,0,0,8.673-15.424C46.79,25.049,45.791,12.078,51.651.811Z" transform="translate(32 13)" fill="#7fdc8a"/>
-      </g>
-      <g id="Big_Ass_Leaf-3" data-name="Big Ass Leaf" transform="translate(0 57)">
-        <path id="leaf-3" data-name="leaf" d="M13.306,0C19.2,0,24.382,3.124,27.953,7.558c4.18,5.19,5.024,11.528,6.721,17.714A15.813,15.813,0,0,0,39.517,33.5c2.315,1.9,5.255,2.283,8.026,3.212A18.73,18.73,0,0,1,59.321,48.5c2.155,6.659-.128,13.374.265,20.122.361,6.2,6.471,10.064,11.387,13.035,4.848,2.93,9.215,5.672,10.675,11.379,1.548,6.053,2.068,12.809-.077,18.788-3.57,9.956-14.019,14.34-24.116,15.02-9.163.617-20.684-.352-27.565-7-4.118-3.98-5.609-9.547-5.424-15.085a45.92,45.92,0,0,1,1.679-10.184,45.944,45.944,0,0,0,1.71-7.145c.64-6.484-5.354-7.73-10.455-9.51A24.88,24.88,0,0,1,3.224,65.425C.285,59.881-.948,53.658.814,47.554A20.863,20.863,0,0,1,5.559,39.2c.974-1.059,2.348-1.942,3.227-3.054a4.12,4.12,0,0,0,.359-3.6C7.837,26.931,3.762,22.278,2.3,16.668.989,11.605,1.767,5.3,6.4,2.038A12.089,12.089,0,0,1,13.306,0Z" transform="translate(0 0)" fill="#e0ffe3"/>
-        <path id="middle_thing-3" data-name="middle thing" d="M3.338.641C9.585,7.3,11.283,16.325,11.781,25.076c.279,4.907-.011,10.083,1.43,14.843,1.234,4.074,4.126,7.188,7.106,10.131,6,5.925,12.693,11.948,14.448,20.523,1.03,5.032.335,10.23,1.758,15.207a41.827,41.827,0,0,0,6.343,12.788c2.231,3.076,5.138,5.431,7.577,8.3.744.875,1.81,2.164,1.5,3.4-.359,1.447-2.2,1.905-3.511,1.678-3.049-.53-5.616-3.442-7.61-5.558a47.877,47.877,0,0,1-7.407-10.159,42.71,42.71,0,0,1-4.8-13.2c-.8-4.827-.4-9.858-2.223-14.491-3.067-7.8-10.5-12.4-15.883-18.471-6.7-7.571-5.7-16.993-5.015-26.305.377-5.118.752-10.9-1.834-15.57C2.672,6.406.471,4.743.047,2.715-.342.858,1.78-1.019,3.338.641Z" transform="translate(18 14)" fill="#7fdc8a"/>
-      </g>
-      <path id="Base" d="M0,0C0,38.058,6.211,58,39,58S78,38.058,78,0Z" transform="translate(28 181)" fill="#202346"/>
-    </g>
-    <g id="Table" transform="translate(692 553)">
-      <g id="Lamp-4" data-name="Lamp" transform="translate(23)">
-        <rect id="Lamp_Base-2" data-name="Lamp Base" width="38" height="9" rx="2" transform="translate(21 144)" fill="#58a3ff"/>
-        <path id="Lamp_Body" data-name="Lamp Body" d="M15.5,75a15.5,15.5,0,0,1,0-31H23c6.44-20.872,7.217-44,7.217-44h4.566A167.709,167.709,0,0,0,42,44h6.5a15.5,15.5,0,0,1,0,31Z" transform="translate(8 71)" fill="#a2cbff"/>
-        <path id="Shade" d="M4.622,1.679S21.811,0,39,0,73.378,1.679,73.378,1.679L78,81.133S58.5,83,39,83,0,81.133,0,81.133Z" fill="#58a3ff"/>
-      </g>
-      <path id="Table-2" data-name="Table" d="M104,104V22H21v82H0V0H125V104Z" transform="translate(0 153)" fill="#202346"/>
-    </g>
-    <g id="Plant" transform="translate(1277 528)">
-      <g id="Succulents" transform="translate(13.3 -1)">
-        <path id="Thi_Succs_" data-name="Thi Succs!" d="M.974.617C2.723,1.88,3.7,3.728,4.882,5.551c1.47,2.266,3.2,4.313,4.668,6.581C12.615,16.86,15.308,21.879,18.1,26.8a96.064,96.064,0,0,1,11.326,30.1c2.067,11.2,2.625,22.754,3.492,34.117.92,12.044,1.846,24.176,1.968,36.267.055,5.417.347,11.167-.3,16.546-.4,3.349-1.916,6.2-5.323,6.175-7.237-.057-10.634-8.073-12.053-14.646-2.089-9.679-2.506-19.961-2.175-29.86C15.432,93.558,17.5,81.8,18.4,69.912c.95-12.587.413-24.951-3.914-36.8-2.186-5.989-4.724-11.835-7-17.784A57.489,57.489,0,0,0,4.409,7.831C2.951,5.208,1.142,2.826,0,0Z" transform="matrix(0.998, 0.07, -0.07, 0.998, 5.274, 39.962)" fill="#cbffd2"/>
-        <path id="Thi_Succs_2" data-name="Thi Succs!" d="M17.334.518,18,0a66.162,66.162,0,0,1-2.676,7.341,59.91,59.91,0,0,0-1.729,7.136c-1.255,5.681-2.7,11.234-3.889,16.963C7.36,42.777,7.8,54.99,9.342,67.568c1.453,11.881,3.751,23.745,4.845,35.623a163.552,163.552,0,0,1,.432,29.409c-.588,6.383-2.517,14-7.771,13.361-2.474-.3-3.764-3.281-4.284-6.642-.835-5.4-1.01-11.074-1.335-16.443C.5,110.9.358,98.951.214,87.092.078,75.9-.3,64.494.452,53.587a102.687,102.687,0,0,1,6.2-28.758c1.7-4.61,3.317-9.328,5.225-13.721.915-2.107,2.033-3.97,2.949-6.075C15.563,3.339,16.148,1.6,17.334.518Z" transform="translate(77.247 15.458) rotate(8)" fill="#cbffd2"/>
-        <path id="Thi_Succs_3" data-name="Thi Succs!" d="M.209.3C1.166-1.3,3.272,3.993,3.593,4.66q-.2-.5-.409-.993A44.1,44.1,0,0,1,7.9,13.734c1.069,3.585,1.987,7.242,2.99,10.853,1.882,6.774,4.31,13.356,6.016,20.191a65.7,65.7,0,0,1,1.678,20.1A171.685,171.685,0,0,0,18.4,86.462c.233,3.418,1.344,6.6,2.1,9.892s1.362,6.632,2.263,9.884c.207-.424.233.993.233,1.1a6.829,6.829,0,0,1-.381,2.265,6.1,6.1,0,0,1-3.841,4.212c-3.456.988-6.666-2.157-7.78-5.477A90.858,90.858,0,0,1,7.755,93.3,70.881,70.881,0,0,1,7.1,79.44c.409-9.179,2.07-18.238,2.519-27.414.489-9.99-1.49-19.376-3.147-29.1A84.98,84.98,0,0,0,3.356,9.134,38.761,38.761,0,0,0,1.048,4.061C.558,3.112-.431,1.418.209.3Z" transform="matrix(0.985, -0.174, 0.174, 0.985, -10.671, 73.863)" fill="#b9f8c1"/>
-        <path id="Thi_Succs_4" data-name="Thi Succs!" d="M14.262,0c-2.653,0-2.637,13.226-2.717,14.925-.288,6.131-.221,12.263-.4,18.395-.4,13.381-.889,26.88-2.9,40.107C7.161,80.547,5.907,87.636,4.557,94.7,3.2,101.789,1.387,108.867.5,116.044c-.855,6.9-.372,13.934-.255,20.867a182.673,182.673,0,0,0,1.242,20.877c.225,1.707.49,3.407.773,5.1a40.455,40.455,0,0,0,.5,4.51c.639,2.152,3.379,2.856,5.224,2.519,4.993-.912,8.182-7.18,9.887-11.76,2.178-5.848,3.334-12.192,4.474-18.356a160.431,160.431,0,0,0,2.4-21.181c.722-14.448-.2-28.911-1.24-43.313-.576-8.009-1.241-15.984-2.258-23.943-1.013-7.926-2.313-15.816-3.16-23.765-.615-5.777-1.221-11.561-1.619-17.36C16.371,8.859,16.291,0,14.262,0" transform="translate(49.825 22)" fill="#7fdc8a"/>
-        <path id="Thi_Succs_5" data-name="Thi Succs!" d="M15.01,5.955c-2.113,2.478-4.243,4.932-6.239,7.557C5.2,18.209,1.971,23.432,1,30.147-1.033,44.2.6,59.379.992,73.863c.081,2.96-.385,5.83,1.065,8.647,1.314,2.554,3.77,4.5,6.112,4.49,5.013-.023,4.248-9.9,4.256-14.254.015-7.623-1.047-15.324-.955-22.94a128.854,128.854,0,0,1,2.02-22.278A107.864,107.864,0,0,1,19.54,6.81c.369-.9,3.017-7.872.515-6.671" transform="matrix(0.996, 0.087, -0.087, 0.996, 70.645, 95.611)" fill="#b9f8c1"/>
-        <path id="Thi_Succs_6" data-name="Thi Succs!" d="M26.941,118.139c-.432-13.886-6.014-74.88-7.284-91.672-.318-4.2-3.375-21.7-3.772-26.467-1.075,1.347-.983,22.309-.972,27.126.012,4.765-.578,9.45-.882,14.189-.31,4.836-7.459,67.285-8.386,71.932-1.846,9.244-3.081,18.729-4.033,28.18C.683,150.639-.76,160.358.482,169.618a28.306,28.306,0,0,0,1.473,6.188c.795,2.116,1.339,4.073,1.977,6.287,1.026,3.567,2.883,6.7,5.736,8.169,5.849,3.019,8.99-3.815,10.583-9.765a159.221,159.221,0,0,0,4.94-29.138c.847-11.04,2.1-22.1,1.75-33.22" transform="matrix(0.999, 0.035, -0.035, 0.999, 35.341, -0.413)" fill="#e0ffe3"/>
-        <path id="Thi_Succs_7" data-name="Thi Succs!" d="M10.252,35.7c-.4,11.445-1.08,22.8-2.606,34.127C6.089,81.38,4.3,92.9,2.8,104.463c-1.459,11.259-2.987,22.7-2.784,34.121.15,8.409-1.244,22.634,8.1,26.784,9.459,4.2,11.488-13.746,12.109-19.67,1.19-11.366.8-22.852.227-34.28-.593-11.729-1.583-23.4-2.81-35.085-1.363-12.981-2.432-26.02-3.29-39.038-.425-6.439-.529-12.867-.412-19.308C14.048,11.911,13.817,5.77,11.656,0l-.339.246" transform="translate(25 22)" fill="#7fdc8a"/>
-        <path id="Thi_Succs_8" data-name="Thi Succs!" d="M.381.208C9.214,21.2,24.229,35.781,32.182,57.6c4.716,12.942,6.682,27.015,6.8,41.427.065,7.828-.071,15.662-.108,23.49-.036,7.634-.243,15.219-.891,22.8-.651,7.625-1.38,15.16-1.7,22.833-.25,5.978-.365,12.932-2.391,18.385-1.611,4.337-5.707,4.972-6.794-.288a42.045,42.045,0,0,1-.461-9.193c.085-3.855.31-7.7.424-11.559.46-15.468-.136-30.938.175-46.412.3-15.119,2.248-30.221.1-45.238-1.776-12.4-6.287-23.051-11.471-33.26C10.874,30.771,5.445,21.187,2.075,10.014A53.84,53.84,0,0,1,0,.03Q.235-.079.381.208Z" transform="translate(13 2)" fill="#cbffd2"/>
-      </g>
-      <g id="Planter" transform="translate(0 159)">
-        <rect id="Vase" width="91" height="91" rx="2" transform="translate(10)" fill="#191c38"/>
-        <rect id="Leg" width="10" height="113" rx="2" transform="translate(0 10)" fill="#202346"/>
-        <rect id="Leg-2" data-name="Leg" width="10" height="113" rx="2" transform="translate(50 10)" fill="#202346"/>
-        <rect id="Leg-3" data-name="Leg" width="10" height="113" rx="2" transform="translate(101 10)" fill="#202346"/>
+      <g id="Plant" transform="translate(1365 525)">
+        <g id="Succulents" transform="translate(13.3 -1)">
+          <path id="Thi_Succs_" data-name="Thi Succs!" d="M.974.617C2.723,1.88,3.7,3.728,4.882,5.551c1.47,2.266,3.2,4.313,4.668,6.581C12.615,16.86,15.308,21.879,18.1,26.8a96.064,96.064,0,0,1,11.326,30.1c2.067,11.2,2.625,22.754,3.492,34.117.92,12.044,1.846,24.176,1.968,36.267.055,5.417.347,11.167-.3,16.546-.4,3.349-1.916,6.2-5.323,6.175-7.237-.057-10.634-8.073-12.053-14.646-2.089-9.679-2.506-19.961-2.175-29.86C15.432,93.558,17.5,81.8,18.4,69.912c.95-12.587.413-24.951-3.914-36.8-2.186-5.989-4.724-11.835-7-17.784A57.489,57.489,0,0,0,4.409,7.831C2.951,5.208,1.142,2.826,0,0Z" transform="matrix(0.998, 0.07, -0.07, 0.998, 5.274, 39.962)" fill="#cbffd2"/>
+          <path id="Thi_Succs_2" data-name="Thi Succs!" d="M17.334.518,18,0a66.162,66.162,0,0,1-2.676,7.341,59.91,59.91,0,0,0-1.729,7.136c-1.255,5.681-2.7,11.234-3.889,16.963C7.36,42.777,7.8,54.99,9.342,67.568c1.453,11.881,3.751,23.745,4.845,35.623a163.552,163.552,0,0,1,.432,29.409c-.588,6.383-2.517,14-7.771,13.361-2.474-.3-3.764-3.281-4.284-6.642-.835-5.4-1.01-11.074-1.335-16.443C.5,110.9.358,98.951.214,87.092.078,75.9-.3,64.494.452,53.587a102.687,102.687,0,0,1,6.2-28.758c1.7-4.61,3.317-9.328,5.225-13.721.915-2.107,2.033-3.97,2.949-6.075C15.563,3.339,16.148,1.6,17.334.518Z" transform="translate(77.247 15.458) rotate(8)" fill="#cbffd2"/>
+          <path id="Thi_Succs_3" data-name="Thi Succs!" d="M.209.3C1.166-1.3,3.272,3.993,3.593,4.66q-.2-.5-.409-.993A44.1,44.1,0,0,1,7.9,13.734c1.069,3.585,1.987,7.242,2.99,10.853,1.882,6.774,4.31,13.356,6.016,20.191a65.7,65.7,0,0,1,1.678,20.1A171.685,171.685,0,0,0,18.4,86.462c.233,3.418,1.344,6.6,2.1,9.892s1.362,6.632,2.263,9.884c.207-.424.233.993.233,1.1a6.829,6.829,0,0,1-.381,2.265,6.1,6.1,0,0,1-3.841,4.212c-3.456.988-6.666-2.157-7.78-5.477A90.858,90.858,0,0,1,7.755,93.3,70.881,70.881,0,0,1,7.1,79.44c.409-9.179,2.07-18.238,2.519-27.414.489-9.99-1.49-19.376-3.147-29.1A84.98,84.98,0,0,0,3.356,9.134,38.761,38.761,0,0,0,1.048,4.061C.558,3.112-.431,1.418.209.3Z" transform="matrix(0.985, -0.174, 0.174, 0.985, -10.671, 73.863)" fill="#b9f8c1"/>
+          <path id="Thi_Succs_4" data-name="Thi Succs!" d="M14.262,0c-2.653,0-2.637,13.226-2.717,14.925-.288,6.131-.221,12.263-.4,18.395-.4,13.381-.889,26.88-2.9,40.107C7.161,80.547,5.907,87.636,4.557,94.7,3.2,101.789,1.387,108.867.5,116.044c-.855,6.9-.372,13.934-.255,20.867a182.673,182.673,0,0,0,1.242,20.877c.225,1.707.49,3.407.773,5.1a40.455,40.455,0,0,0,.5,4.51c.639,2.152,3.379,2.856,5.224,2.519,4.993-.912,8.182-7.18,9.887-11.76,2.178-5.848,3.334-12.192,4.474-18.356a160.431,160.431,0,0,0,2.4-21.181c.722-14.448-.2-28.911-1.24-43.313-.576-8.009-1.241-15.984-2.258-23.943-1.013-7.926-2.313-15.816-3.16-23.765-.615-5.777-1.221-11.561-1.619-17.36C16.371,8.859,16.291,0,14.262,0" transform="translate(49.825 22)" fill="#7fdc8a"/>
+          <path id="Thi_Succs_5" data-name="Thi Succs!" d="M15.01,5.955c-2.113,2.478-4.243,4.932-6.239,7.557C5.2,18.209,1.971,23.432,1,30.147-1.033,44.2.6,59.379.992,73.863c.081,2.96-.385,5.83,1.065,8.647,1.314,2.554,3.77,4.5,6.112,4.49,5.013-.023,4.248-9.9,4.256-14.254.015-7.623-1.047-15.324-.955-22.94a128.854,128.854,0,0,1,2.02-22.278A107.864,107.864,0,0,1,19.54,6.81c.369-.9,3.017-7.872.515-6.671" transform="matrix(0.996, 0.087, -0.087, 0.996, 70.645, 95.611)" fill="#b9f8c1"/>
+          <path id="Thi_Succs_6" data-name="Thi Succs!" d="M26.941,118.139c-.432-13.886-6.014-74.88-7.284-91.672-.318-4.2-3.375-21.7-3.772-26.467-1.075,1.347-.983,22.309-.972,27.126.012,4.765-.578,9.45-.882,14.189-.31,4.836-7.459,67.285-8.386,71.932-1.846,9.244-3.081,18.729-4.033,28.18C.683,150.639-.76,160.358.482,169.618a28.306,28.306,0,0,0,1.473,6.188c.795,2.116,1.339,4.073,1.977,6.287,1.026,3.567,2.883,6.7,5.736,8.169,5.849,3.019,8.99-3.815,10.583-9.765a159.221,159.221,0,0,0,4.94-29.138c.847-11.04,2.1-22.1,1.75-33.22" transform="matrix(0.999, 0.035, -0.035, 0.999, 35.341, -0.413)" fill="#e0ffe3"/>
+          <path id="Thi_Succs_7" data-name="Thi Succs!" d="M10.252,35.7c-.4,11.445-1.08,22.8-2.606,34.127C6.089,81.38,4.3,92.9,2.8,104.463c-1.459,11.259-2.987,22.7-2.784,34.121.15,8.409-1.244,22.634,8.1,26.784,9.459,4.2,11.488-13.746,12.109-19.67,1.19-11.366.8-22.852.227-34.28-.593-11.729-1.583-23.4-2.81-35.085-1.363-12.981-2.432-26.02-3.29-39.038-.425-6.439-.529-12.867-.412-19.308C14.048,11.911,13.817,5.77,11.656,0l-.339.246" transform="translate(25 22)" fill="#7fdc8a"/>
+          <path id="Thi_Succs_8" data-name="Thi Succs!" d="M.381.208C9.214,21.2,24.229,35.781,32.182,57.6c4.716,12.942,6.682,27.015,6.8,41.427.065,7.828-.071,15.662-.108,23.49-.036,7.634-.243,15.219-.891,22.8-.651,7.625-1.38,15.16-1.7,22.833-.25,5.978-.365,12.932-2.391,18.385-1.611,4.337-5.707,4.972-6.794-.288a42.045,42.045,0,0,1-.461-9.193c.085-3.855.31-7.7.424-11.559.46-15.468-.136-30.938.175-46.412.3-15.119,2.248-30.221.1-45.238-1.776-12.4-6.287-23.051-11.471-33.26C10.874,30.771,5.445,21.187,2.075,10.014A53.84,53.84,0,0,1,0,.03Q.235-.079.381.208Z" transform="translate(13 2)" fill="#cbffd2"/>
+        </g>
+        <g id="Planter" transform="translate(0 159)">
+          <rect id="Vase" width="91" height="91" rx="2" transform="translate(10)" fill="#5ad871"/>
+          <rect id="Leg" width="10" height="113" rx="2" transform="translate(0 10)" fill="#cbffd2"/>
+          <rect id="Leg-2" data-name="Leg" width="10" height="113" rx="2" transform="translate(50 10)" fill="#cbffd2"/>
+          <rect id="Leg-3" data-name="Leg" width="10" height="113" rx="2" transform="translate(101 10)" fill="#cbffd2"/>
+        </g>
       </g>
     </g>
   </g>

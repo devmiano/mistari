@@ -4,8 +4,8 @@
 
 @mixin col {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 
 @mixin row {
@@ -15,11 +15,11 @@
 
 @mixin link {
   padding: 1rem 2rem;
-  font-family: $plus;
   color: $text-light;
   font-weight: 300;
-  letter-spacing: 0.05rem;
+  font-family: $plus;
   text-decoration: none;
+  letter-spacing: 0.05rem;
 }
 
 .app {
@@ -64,8 +64,8 @@
         }
 
         .nav-icon {
-          height: 1.5rem;
           width: 1.5rem;
+          height: 1.5rem;
         }
         .nav-text {
           margin-left: 1.5rem;
@@ -83,8 +83,8 @@
       }
 
       .nav-icon {
-        height: 1.5rem;
         width: 1.5rem;
+        height: 1.5rem;
       }
       .nav-text {
         margin-left: 1.5rem;
@@ -98,6 +98,50 @@
     padding: 1rem;
     overflow: auto;
     color: $text-light;
+
+    .hero {
+      @include row;
+      width: 100%;
+      height: 30rem;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #3b0086;
+      border-radius: 0.5rem;
+
+      .hero-content {
+        @include col;
+        height: auto;
+        padding: 2rem;
+        align-items: flex-start;
+
+        .hero-title {
+          color: $primary;
+          font-weight: 600;
+          font-size: 2.4rem;
+          font-family: $roboto;
+          letter-spacing: 0.05rem;
+        }
+        .hero-text {
+          color: $light;
+          margin: 1rem 0;
+          font-weight: 400;
+          font-size: 1.3rem;
+          font-family: $plus;
+          letter-spacing: 0.05rem;
+        }
+        .hero-cta {
+          @include link;
+          color: $bg;
+          font-weight: 500;
+          border-radius: 0.5rem;
+          background-color: $primary;
+        }
+      }
+      .hero-image {
+        margin-right: 4rem;
+        height: 30rem;
+      }
+    }
   }
 }
 
