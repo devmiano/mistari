@@ -1,43 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 <main class="app">
-  <section class="sidebar">
-    <a href="/" class="nav-brand active">{{title}}</a>
-    <nav class="navbar">
-      <a href="/elevator" class="nav-link">
-        <img class="nav-icon" src="../assets/icons/elevator.svg" alt="" />
-        <p class="nav-text">The Elevator Pitch</p>
-      </a>
-      <a href="/one-word" class="nav-link">
-        <img class="nav-icon" src="../assets/icons/word.svg" alt="" />
-        <p class="nav-text">The One Word Pitch</p></a
-      >
-      <a href="/competitor" class="nav-link">
-        <img class="nav-icon" src="../assets/icons/competitor.svg" alt="" />
-        <p class="nav-text">The Competitor Pitch</p></a
-      >
-      <a href="/question" class="nav-link">
-        <img class="nav-icon" src="../assets/icons/question.svg" alt="" />
-        <p class="nav-text">The Question Pitch</p></a
-      >
-      <a href="/twitter" class="nav-link">
-        <img class="nav-icon" src="../assets/icons/twitter-alt.svg" alt="" />
-        <p class="nav-text">The Twitter Pitch</p></a
-      >
-      <a href="/rhyme" class="nav-link">
-        <img class="nav-icon" src="../assets/icons/rhyme.svg" alt="" />
-        <p class="nav-text">The Rhyme Pitch</p></a
-      >
-      <a href="/pixar" class="nav-link">
-        <img class="nav-icon" src="../assets/icons/pixar.svg" alt="" />
-        <p class="nav-text">The Pixar Pitch</p></a
-      >
-    </nav>
-    <a href="/profile" class="nav-cta">
-      <img class="nav-icon" src="../assets/icons/user.svg" alt="" />
-      <p class="nav-text">Profile</p>
-    </a>
-  </section>
-
+  {% include 'sidebar.html' %}
   <section class="container">
     <div class="hero">
       <h1>{{title}}</h1>
