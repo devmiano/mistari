@@ -3,13 +3,14 @@ import os
 class Config:
   '''class to configure url parameters'''
   SECRET_KEY = os.environ.get('SECRET_KEY')
-  
+  SQLALCHEMY_TRACK_MODIFICATIONS = False
   
   
 class ProdConfig(Config):
   pass
 
 class DevConfig(Config):
+  SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://devmiano:devmiano@localhost/mistari"
   DEBUG = True
   ASSETS_DEBUG = True
   

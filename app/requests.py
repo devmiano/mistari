@@ -1,3 +1,5 @@
+from .models import User
+
 secret_key = None
 
 

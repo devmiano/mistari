@@ -1,11 +1,15 @@
 from flask import Flask
 from flask_assets import Environment, Bundle
 from config import config_options
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
 
 def create_app(config_name):
   '''function to create and configure the Flask app'''
   app = Flask(__name__, static_folder='assets')
   app.config.from_object(config_options[config_name])
+  db.init_app(app)
   assets = Environment(app)
   assets.url = app.static_url_path
   sass = Bundle('sass/global.scss', filters='pyscss', depends='sass/base/*.scss', output='styles/global.css')
