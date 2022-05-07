@@ -25,6 +25,9 @@ def create_app(config_name):
   from .main import main as main_blueprint
   app.register_blueprint(main_blueprint)
   
+  from .auth import auth as auth_blueprint
+  app.register_blueprint(auth_blueprint, url_prefix='/auth')
+  
   '''import and configure the requests for use in the app'''
   from .requests import configure_request
   configure_request(app)
