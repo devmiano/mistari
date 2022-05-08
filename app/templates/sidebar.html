@@ -31,8 +31,14 @@
       <p class="nav-text">The Pixar Pitch</p></a
     >
   </nav>
-  <a href="/profile" class="nav-cta active">
-    <img class="nav-icon" src="../assets/icons/user.svg" alt="" />
-    <p class="nav-text">Profile</p>
-  </a>
+  {% if current_user.is_authenticated %}
+  <a
+    class="nav-cta active"
+    href="{{url_for('main.profile',uname=current_user.username)}}"
+    ><img class="nav-icon" src="../assets/icons/user.svg" alt="" />
+    <p class="nav-text">Profile</p></a
+  >
+  {% else %}
+  <a class="nav-cta active" href="{{url_for('auth.signup')}}">Sign up</a>
+  {% endif %}
 </section>

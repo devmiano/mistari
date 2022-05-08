@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block content %}
+<div class="wrapper">
+  <div class="">
+    <h1 class="title">Update Profile</h1>
+    <form class="form">
+      {{ update.csrf_token }}
+      <div class="container">
+        <div class="group">
+          <p class="label">{{ update.first_name.label }}</p>
+          <p class="input">{{ update.first_name() }}</p>
+          {% for error in update.first_name.errors %}
+          <li class="error">{{error}}</li>
+          {% endfor %}
+        </div>
+        <div class="group">
+          <p class="label">{{ update.last_name.label }}</p>
+          <p class="input">{{ update.last_name() }}</p>
+          {% for error in update.last_name.errors %}
+          <li class="error">{{error}}</li>
+          {% endfor %}
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

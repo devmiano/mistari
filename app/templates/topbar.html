@@ -17,7 +17,11 @@
   </a>
   <div class="bar-links">
     {% if current_user.is_authenticated %}
-    <a class="bar-user" href="/profile">{{current_user.username}}</a>
+    <a
+      class="bar-user"
+      href="{{url_for('main.profile',uname=current_user.username)}}"
+      >{{current_user.username}}</a
+    >
     <a class="bar-logout" href="{{url_for('auth.logout')}}">Logout</a>
     {% else %}
     <a class="bar-login" href="{{url_for('auth.login')}}">Login</a>
