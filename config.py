@@ -4,6 +4,7 @@ class Config:
   '''class to configure url parameters'''
   SECRET_KEY = os.environ.get('SECRET_KEY')
   SQLALCHEMY_TRACK_MODIFICATIONS = False
+  UPLOADED_PHOTOS_DEST ='app/assets/photos'
   
 class ProdConfig(Config):
   pass
