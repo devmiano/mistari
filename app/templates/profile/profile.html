@@ -1,11 +1,20 @@
 {% extends 'base.html' %} {% block content %}
 <section class="profile">
+  {% if user.first_name %}
   <h1>{{user.first_name}}</h1>
   <h1>{{user.last_name}}</h1>
+  {%else%}
+  <p>no name available for {{user.username| capitalize}}</p>
+  {% endif %}
+
   <h1>{{user.username}}</h1>
   <h1>{{user.email}}</h1>
 
-  {% if user.profile_pic_path %}
+  {% if user.bio %}
+  <p>{{user.bio}}</p>
+  {%else%}
+  <p>{{user.username| capitalize}} has no bio</p>
+  {% endif %} {% if user.profile_pic_path %}
   <img
     src="{{url_for('static', filename=user.profile_pic_path)}}"
     alt="{{user.username}}"

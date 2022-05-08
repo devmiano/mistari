@@ -4,22 +4,7 @@
     <h1 class="title">Sign Up</h1>
     <form class="form">
       {{ signup.csrf_token }}
-      <div class="container">
-        <div class="group">
-          <p class="label">{{ signup.first_name.label }}</p>
-          <p class="input">{{ signup.first_name() }}</p>
-          {% for error in signup.first_name.errors %}
-          <li class="error">{{error}}</li>
-          {% endfor %}
-        </div>
-        <div class="group">
-          <p class="label">{{ signup.last_name.label }}</p>
-          <p class="input">{{ signup.last_name() }}</p>
-          {% for error in signup.last_name.errors %}
-          <li class="error">{{error}}</li>
-          {% endfor %}
-        </div>
-      </div>
+
       <div class="group">
         <p class="label">{{ signup.username.label }}</p>
         <p class="input">{{ signup.username() }}</p>

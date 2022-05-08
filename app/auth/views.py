@@ -23,7 +23,7 @@ def login():
 def signup():
   signup = RegistrationForm()
   if signup.validate_on_submit():
-    user = User(first_name=signup.first_name.data, last_name=signup.last_name.data, username=signup.username.data, email=signup.email.data, password=signup.password.data)
+    user = User(username=signup.username.data, email=signup.email.data, password=signup.password.data)
     db.session.add(user)
     db.session.commit()
     return redirect(url_for('auth.login'))

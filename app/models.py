@@ -3,6 +3,10 @@ from flask_login import UserMixin
 from . import db
 from . import login_manager
 
+@login_manager.user_loader
+def load_user(user_id):
+  return User.query.get(int(user_id))
+
 
 class User(UserMixin, db.Model):
   __tablename__ = 'users'
@@ -12,6 +16,7 @@ class User(UserMixin, db.Model):
   last_name = db.Column(db.String(255))
   username = db.Column(db.String(255), unique=True, index=True)
   email = db.Column(db.String(255), unique=True, index=True)
+  bio = db.Column(db.String(255))
   profile_pic_path = db.Column(db.String(255))
   password_hash = db.Column(db.String(255))
   role_id = db.Column(db.Integer, db.ForeignKey('roles.id'))
@@ -27,9 +32,6 @@ class User(UserMixin, db.Model):
   def verify_password(self, password):
     return check_password_hash(self.password_hash, password)
   
-  @login_manager.user_loader
-  def load_user(user_id):
-    return User.query.get(int(user_id))
   
   def __repr__(self):
       return f'User {self.username}'

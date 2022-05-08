@@ -30,6 +30,7 @@ def profile(uname):
     
   return render_template('profile/profile.html', user=user)
 
+
 @main.route('/user/<uname>/update', methods=['GET', 'POST'])
 @login_required
 def update_profile(uname):
@@ -41,7 +42,10 @@ def update_profile(uname):
   update = UpdateProfile()
   
   if update.validate_on_submit():
+    user.first_name = update.first_name.data
+    user.last_name = update.last_name.data
     user.bio = update.bio.data
+    
     
     db.session.add(user)
     db.session.commit()

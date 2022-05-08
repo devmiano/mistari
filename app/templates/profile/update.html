@@ -20,6 +20,13 @@
           {% endfor %}
         </div>
       </div>
+      <div class="group">
+        <p class="label">{{ update.bio.label }}</p>
+        <p class="input">{{ update.bio() }}</p>
+        {% for error in update.bio.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
     </form>
   </div>
 </div>
