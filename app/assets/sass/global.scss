@@ -21,6 +21,20 @@
   letter-spacing: 0.05rem;
 }
 
+@mixin title {
+  font-weight: 500;
+  font-size: 2.4rem;
+  font-family: $roboto;
+  letter-spacing: 0.05rem;
+}
+
+@mixin alt-text {
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-family: $plus;
+  letter-spacing: 0.05rem;
+}
+
 .app {
   width: 100%;
   margin: 0 auto;
@@ -30,7 +44,7 @@
   .sidebar {
     @include col;
     top: 0;
-    width: 18%;
+    width: 20%;
     z-index: 100;
     height: 100vh;
     padding: 1rem;
@@ -104,7 +118,7 @@
 
   .container {
     @include col;
-    width: 82%;
+    width: 80%;
     padding: 1rem;
     overflow: auto;
     color: $text-light;
@@ -125,11 +139,8 @@
         align-items: flex-start;
 
         .hero-title {
+          @include title;
           color: $primary;
-          font-weight: 500;
-          font-size: 2.4rem;
-          font-family: $roboto;
-          letter-spacing: 0.05rem;
         }
         .hero-text {
           color: $light;
@@ -264,6 +275,105 @@
       border-radius: 0.25rem;
       letter-spacing: 0.05rem;
       background-color: $accent-300;
+    }
+  }
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: $accent-400;
+  .signup {
+    @include col;
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 2rem;
+    background: $bg;
+    justify-content: center;
+    .title {
+      @include title;
+      color: $primary;
+      margin: 0.5rem 0;
+    }
+    .form {
+      width: 80%;
+      .container {
+        @include row;
+        width: 100%;
+        display: grid;
+        gap: 1.25rem;
+        margin-top: 1rem;
+        grid-template-columns: auto auto;
+
+        .group {
+          margin-bottom: 0;
+          .label {
+            @include alt-text;
+            padding-bottom: 0.25rem;
+          }
+          .input > input {
+            @include alt-text;
+            border: none;
+            outline: none;
+            color: $primary;
+            padding: 0.7rem;
+            background: $text-dark;
+            border-radius: 0.25rem;
+
+            &::placeholder {
+              color: $text-light;
+            }
+          }
+          .error {
+            @include alt-text;
+          }
+        }
+      }
+      .group {
+        width: 100%;
+        margin: 1.5rem 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .label {
+          @include alt-text;
+          color: $text-light;
+          padding-bottom: 0.25rem;
+        }
+        .input > input {
+          @include alt-text;
+          width: 100%;
+          border: none;
+          outline: none;
+          color: $primary;
+          padding: 0.7rem;
+          border-radius: 0.25rem;
+          background: $text-dark;
+
+          &::placeholder {
+            color: $text-light;
+          }
+        }
+        .btn {
+          width: 100%;
+          border: none;
+          margin: 0.5rem 0;
+          padding: 1rem;
+          background: $accent-400;
+          border-radius: 0.25rem;
+
+          input {
+            @include alt-text;
+            border: none;
+            outline: none;
+            color: $primary;
+            background: transparent;
+          }
+        }
+        .error {
+        }
+      }
     }
   }
 }

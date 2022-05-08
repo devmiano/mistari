@@ -70,19 +70,19 @@
         ::-webkit-scrollbar-thumb:hover {
           background: #00ffe7; }
 
-          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000324}}
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000338}}
           .app {
             width: 100%;
             margin: 0 auto;
             display: flex;
             flex-direction: row; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000329}}
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000343}}
             .app .sidebar {
               display: flex;
               align-items: center;
               flex-direction: column;
               top: 0;
-              width: 18%;
+              width: 20%;
               z-index: 100;
               height: 100vh;
               padding: 1rem;
@@ -90,7 +90,7 @@
               align-items: center;
               justify-content: space-between;
               background-color: #191c38; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000340}}
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000354}}
               .app .sidebar .nav-brand {
                 padding: 1rem 2rem;
                 font-weight: 300;
@@ -104,18 +104,18 @@
                 font-family: 'Roboto Slab', serif;
                 text-transform: uppercase;
                 text-align: center; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000349}}
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000363}}
                 .app .sidebar .nav-brand:hover {
                   color: #00ffe7;
                   border-radius: 0.25rem;
                   background-color: #202346; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000356}}
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000370}}
               .app .sidebar .navbar {
                 display: flex;
                 align-items: center;
                 flex-direction: column;
                 width: 100%; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000358}}
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000372}}
                 .app .sidebar .navbar .nav-link {
                   display: flex;
                   flex-direction: row;
@@ -127,19 +127,19 @@
                   width: 100%;
                   margin: 0.5rem 0;
                   color: #8490c2; }
-                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000364}}
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000378}}
                   .app .sidebar .navbar .nav-link:hover {
                     color: #00ffe7;
                     border-radius: 0.25rem;
                     background-color: #202346; }
-                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000370}}
+                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000384}}
                     .app .sidebar .navbar .nav-link .nav-icon {
                       width: 1.5rem;
                       height: 1.5rem; }
-                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000374}}
+                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000388}}
                       .app .sidebar .navbar .nav-link .nav-text {
                         margin-left: 1.5rem; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000381}}
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000395}}
               .app .sidebar .nav-cta {
                 display: flex;
                 flex-direction: row;
@@ -150,28 +150,28 @@
                 letter-spacing: 0.05rem;
                 width: 100%;
                 color: #8490c2; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000386}}
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003100}}
                 .app .sidebar .nav-cta:hover {
                   color: #00ffe7;
                   border-radius: 0.25rem;
                   background-color: #202346; }
-                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000392}}
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003106}}
                   .app .sidebar .nav-cta .nav-icon {
                     width: 1.5rem;
                     height: 1.5rem; }
-                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\0000396}}
+                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003110}}
                     .app .sidebar .nav-cta .nav-text {
                       margin-left: 1.5rem; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003104}}
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003118}}
             .app .container {
               display: flex;
               align-items: center;
               flex-direction: column;
-              width: 82%;
+              width: 80%;
               padding: 1rem;
               overflow: auto;
               color: #8490c2; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003110}}
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003124}}
               .app .container .hero {
                 display: flex;
                 flex-direction: row;
@@ -181,7 +181,7 @@
                 justify-content: space-between;
                 background-color: #3b0086;
                 border-radius: 0.5rem; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003118}}
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003132}}
                 .app .container .hero .hero-content {
                   display: flex;
                   align-items: center;
@@ -189,14 +189,14 @@
                   height: auto;
                   padding: 2rem;
                   align-items: flex-start; }
-                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003123}}
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003137}}
                   .app .container .hero .hero-content .hero-title {
-                    color: #00ffe7;
                     font-weight: 500;
                     font-size: 2.4rem;
                     font-family: 'Roboto Slab', serif;
-                    letter-spacing: 0.05rem; }
-                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003130}}
+                    letter-spacing: 0.05rem;
+                    color: #00ffe7; }
+                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003141}}
                     .app .container .hero .hero-content .hero-text {
                       color: #d1f5ff;
                       margin: 1rem 0;
@@ -204,7 +204,7 @@
                       font-size: 1.3rem;
                       font-family: 'Plus Jakarta Sans', sans-serif;
                       letter-spacing: 0.05rem; }
-                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003138}}
+                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003149}}
                       .app .container .hero .hero-content .hero-cta {
                         padding: 1rem 2rem;
                         font-weight: 300;
@@ -215,18 +215,18 @@
                         font-weight: 500;
                         border-radius: 0.25rem;
                         background-color: #00ffe7; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003147}}
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003158}}
                 .app .container .hero .hero-image {
                   margin-right: 2rem;
                   height: 30rem; }
 
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003158}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003169}}
   .active {
     color: #00ffe7 !important;
     border-radius: 0.25rem;
     background-color: #202346; }
 
-    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003164}}
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003175}}
     .topbar {
       display: flex;
       flex-direction: row;
@@ -234,7 +234,7 @@
       align-items: center;
       padding-bottom: 1rem;
       justify-content: flex-end; }
-      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003170}}
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003181}}
       .topbar .bar-search {
         display: flex;
         flex-direction: row;
@@ -242,7 +242,7 @@
         align-items: center;
         background-color: #191c38;
         border-radius: 0.25rem 0 0 0.25rem; }
-        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003176}}
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003187}}
         .topbar .bar-search .search {
           width: 20rem;
           border: none;
@@ -253,10 +253,10 @@
           padding-left: 0.8rem;
           letter-spacing: 0.05rem;
           background: transparent; }
-          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003186}}
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003197}}
           .topbar .bar-search .search::placeholder {
             color: #8490c2; }
-        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003191}}
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003202}}
         .topbar .bar-search .bar-btn {
           padding: 1rem 2rem;
           font-weight: 300;
@@ -268,11 +268,11 @@
           cursor: pointer;
           background-color: #2d3162;
           border-radius: 0 0.25rem 0.25rem 0; }
-          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003197}}
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003208}}
           .topbar .bar-search .bar-btn .bar-icon {
             width: 1.7rem;
             height: 1.5rem; }
-      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003206}}
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003217}}
       .topbar .bar-add {
         padding: 1rem 2rem;
         font-weight: 300;
@@ -290,17 +290,17 @@
         border-radius: 0.25rem;
         justify-content: center;
         background-color: #00ffe7; }
-        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003217}}
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003228}}
         .topbar .bar-add .add-icon {
           width: 1.7rem;
           height: 1.4rem; }
-      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003224}}
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003235}}
       .topbar .bar-links {
         display: flex;
         flex-direction: row;
         margin-left: 5rem;
         align-items: center; }
-        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003227}}
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003238}}
         .topbar .bar-links .bar-user {
           padding: 1rem 2rem;
           font-weight: 300;
@@ -313,7 +313,7 @@
           border-radius: 0.25rem;
           letter-spacing: 0.05rem;
           background-color: #00ffe7; }
-          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003236}}
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003247}}
           .topbar .bar-links .bar-logout {
             padding: 1rem 2rem;
             font-weight: 300;
@@ -327,7 +327,7 @@
             border-radius: 0.25rem;
             background-color: #191c38;
             letter-spacing: 0.05rem; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003246}}
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003257}}
             .topbar .bar-links .bar-login {
               padding: 1rem 2rem;
               font-weight: 300;
@@ -341,7 +341,7 @@
               border-radius: 0.25rem;
               letter-spacing: 0.05rem;
               background-color: #202346; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003256}}
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003267}}
               .topbar .bar-links .bar-signup {
                 padding: 1rem 2rem;
                 font-weight: 300;
@@ -355,3 +355,119 @@
                 border-radius: 0.25rem;
                 letter-spacing: 0.05rem;
                 background-color: #4700a3; }
+
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003282}}
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+    background: #3b0086; }
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003285}}
+    .wrapper .signup {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+      height: 100%;
+      float: right;
+      padding: 2rem;
+      background: #13152a;
+      justify-content: center; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003292}}
+      .wrapper .signup .title {
+        font-weight: 500;
+        font-size: 2.4rem;
+        font-family: 'Roboto Slab', serif;
+        letter-spacing: 0.05rem;
+        color: #00ffe7;
+        margin: 0.5rem 0; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003297}}
+        .wrapper .signup .form {
+          width: 80%; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003298}}
+          .wrapper .signup .form .container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            display: grid;
+            gap: 1.25rem;
+            margin-top: 1rem;
+            grid-template-columns: auto auto; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003305}}
+            .wrapper .signup .form .container .group {
+              margin-bottom: 0; }
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003306}}
+              .wrapper .signup .form .container .group .label {
+                font-weight: 300;
+                font-size: 1.1rem;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                letter-spacing: 0.05rem;
+                padding-bottom: 0.25rem; }
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003310}}
+                .wrapper .signup .form .container .group .input > input {
+                  font-weight: 300;
+                  font-size: 1.1rem;
+                  font-family: 'Plus Jakarta Sans', sans-serif;
+                  letter-spacing: 0.05rem;
+                  border: none;
+                  outline: none;
+                  color: #00ffe7;
+                  padding: 0.7rem;
+                  background: #202346;
+                  border-radius: 0.25rem; }
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003318}}
+                  .wrapper .signup .form .container .group .input > input::placeholder {
+                    color: #8490c2; }
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003323}}
+              .wrapper .signup .form .container .group .error {
+                font-weight: 300;
+                font-size: 1.1rem;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                letter-spacing: 0.05rem; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003330}}
+          .wrapper .signup .form .group {
+            width: 100%;
+            margin: 1.5rem 0;
+            align-items: flex-start;
+            justify-content: flex-start; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003335}}
+            .wrapper .signup .form .group .label {
+              font-weight: 300;
+              font-size: 1.1rem;
+              font-family: 'Plus Jakarta Sans', sans-serif;
+              letter-spacing: 0.05rem;
+              color: #8490c2;
+              padding-bottom: 0.25rem; }
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003340}}
+              .wrapper .signup .form .group .input > input {
+                font-weight: 300;
+                font-size: 1.1rem;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                letter-spacing: 0.05rem;
+                width: 100%;
+                border: none;
+                outline: none;
+                color: #00ffe7;
+                padding: 0.7rem;
+                border-radius: 0.25rem;
+                background: #202346; }
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003349}}
+                .wrapper .signup .form .group .input > input::placeholder {
+                  color: #8490c2; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003354}}
+            .wrapper .signup .form .group .btn {
+              width: 100%;
+              border: none;
+              margin: 0.5rem 0;
+              padding: 1rem;
+              background: #3b0086;
+              border-radius: 0.25rem; }
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003361}}
+              .wrapper .signup .form .group .btn input {
+                font-weight: 300;
+                font-size: 1.1rem;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                letter-spacing: 0.05rem;
+                border: none;
+                outline: none;
+                color: #00ffe7;
+                background: transparent; }
