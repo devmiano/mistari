@@ -5,7 +5,7 @@ from . import main
 @main.route('/')
 def index():
   '''function that renders the homepage'''
-  title = 'Mistari'
+  title = 'Challenge yourself with one of a kind pitch deck '
   
   return render_template('index.html', title=title)
 
@@ -13,6 +13,6 @@ def index():
 @login_required
 def add():
   '''function that renders the add page'''
-  title = 'Mistari | Add a Pitch'
+  title = 'Add a Pitch'
   
   return render_template('add.html', title=title)

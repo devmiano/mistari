@@ -283,7 +283,8 @@
   width: 100%;
   height: 100vh;
   background: $accent-400;
-  .signup {
+  .signup,
+  .login {
     @include col;
     width: 50%;
     height: 100%;
@@ -294,7 +295,17 @@
     .title {
       @include title;
       color: $primary;
-      margin: 0.5rem 0;
+      margin-bottom: 0.5rem;
+    }
+    .text {
+      @include alt-text;
+      color: $text-light;
+      .link {
+        @include link;
+        color: $primary;
+        font-size: 1.1rem;
+        letter-spacing: 0.05rem;
+      }
     }
     .form {
       width: 80%;
@@ -308,6 +319,7 @@
 
         .group {
           margin-bottom: 0;
+          margin-top: 0;
           .label {
             @include alt-text;
             padding-bottom: 0.25rem;
@@ -327,6 +339,7 @@
           }
           .error {
             @include alt-text;
+            color: $red;
           }
         }
       }
@@ -372,6 +385,8 @@
           }
         }
         .error {
+          @include alt-text;
+          color: $red;
         }
       }
     }

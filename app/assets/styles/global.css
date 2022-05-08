@@ -361,8 +361,8 @@
     width: 100%;
     height: 100vh;
     background: #3b0086; }
-    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003285}}
-    .wrapper .signup {
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003286}}
+    .wrapper .signup, .wrapper .login {
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -373,101 +373,133 @@
       background: #13152a;
       justify-content: center; }
       @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003292}}
-      .wrapper .signup .title {
+      .wrapper .signup .title, .wrapper .login .title {
         font-weight: 500;
         font-size: 2.4rem;
         font-family: 'Roboto Slab', serif;
         letter-spacing: 0.05rem;
         color: #00ffe7;
-        margin: 0.5rem 0; }
+        margin-bottom: 0.5rem; }
         @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003297}}
-        .wrapper .signup .form {
-          width: 80%; }
-          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003298}}
-          .wrapper .signup .form .container {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            display: grid;
-            gap: 1.25rem;
-            margin-top: 1rem;
-            grid-template-columns: auto auto; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003305}}
-            .wrapper .signup .form .container .group {
-              margin-bottom: 0; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003306}}
-              .wrapper .signup .form .container .group .label {
-                font-weight: 300;
-                font-size: 1.1rem;
-                font-family: 'Plus Jakarta Sans', sans-serif;
-                letter-spacing: 0.05rem;
-                padding-bottom: 0.25rem; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003310}}
-                .wrapper .signup .form .container .group .input > input {
-                  font-weight: 300;
-                  font-size: 1.1rem;
-                  font-family: 'Plus Jakarta Sans', sans-serif;
-                  letter-spacing: 0.05rem;
-                  border: none;
-                  outline: none;
-                  color: #00ffe7;
-                  padding: 0.7rem;
-                  background: #202346;
-                  border-radius: 0.25rem; }
-                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003318}}
-                  .wrapper .signup .form .container .group .input > input::placeholder {
-                    color: #8490c2; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003323}}
-              .wrapper .signup .form .container .group .error {
-                font-weight: 300;
-                font-size: 1.1rem;
-                font-family: 'Plus Jakarta Sans', sans-serif;
-                letter-spacing: 0.05rem; }
-          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003330}}
-          .wrapper .signup .form .group {
-            width: 100%;
-            margin: 1.5rem 0;
-            align-items: flex-start;
-            justify-content: flex-start; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003335}}
-            .wrapper .signup .form .group .label {
+        .wrapper .signup .text, .wrapper .login .text {
+          font-weight: 300;
+          font-size: 1.1rem;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          letter-spacing: 0.05rem;
+          color: #8490c2; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003299}}
+          .wrapper .signup .text .link, .wrapper .login .text .link {
+            padding: 1rem 2rem;
+            font-weight: 300;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            text-decoration: none;
+            letter-spacing: 0.05rem;
+            color: #00ffe7;
+            font-size: 1.1rem;
+            letter-spacing: 0.05rem; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003307}}
+      .wrapper .signup .form, .wrapper .login .form {
+        width: 80%; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003308}}
+        .wrapper .signup .form .container, .wrapper .login .form .container {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          display: grid;
+          gap: 1.25rem;
+          margin-top: 1rem;
+          grid-template-columns: auto auto; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003315}}
+          .wrapper .signup .form .container .group, .wrapper .login .form .container .group {
+            margin-bottom: 0;
+            margin-top: 0; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003317}}
+            .wrapper .signup .form .container .group .label,
+            .wrapper .login .form .container .group .label {
               font-weight: 300;
               font-size: 1.1rem;
               font-family: 'Plus Jakarta Sans', sans-serif;
               letter-spacing: 0.05rem;
-              color: #8490c2;
               padding-bottom: 0.25rem; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003340}}
-              .wrapper .signup .form .group .input > input {
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003321}}
+              .wrapper .signup .form .container .group .input > input,
+              .wrapper .login .form .container .group .input > input {
                 font-weight: 300;
                 font-size: 1.1rem;
                 font-family: 'Plus Jakarta Sans', sans-serif;
                 letter-spacing: 0.05rem;
-                width: 100%;
                 border: none;
                 outline: none;
                 color: #00ffe7;
                 padding: 0.7rem;
-                border-radius: 0.25rem;
-                background: #202346; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003349}}
-                .wrapper .signup .form .group .input > input::placeholder {
+                background: #202346;
+                border-radius: 0.25rem; }
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003329}}
+                .wrapper .signup .form .container .group .input > input::placeholder,
+                .wrapper .login .form .container .group .input > input::placeholder {
                   color: #8490c2; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003354}}
-            .wrapper .signup .form .group .btn {
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003334}}
+            .wrapper .signup .form .container .group .error,
+            .wrapper .login .form .container .group .error {
+              font-weight: 300;
+              font-size: 1.1rem;
+              font-family: 'Plus Jakarta Sans', sans-serif;
+              letter-spacing: 0.05rem;
+              color: #fb8998; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003342}}
+        .wrapper .signup .form .group, .wrapper .login .form .group {
+          width: 100%;
+          margin: 1.5rem 0;
+          align-items: flex-start;
+          justify-content: flex-start; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003347}}
+          .wrapper .signup .form .group .label, .wrapper .login .form .group .label {
+            font-weight: 300;
+            font-size: 1.1rem;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            letter-spacing: 0.05rem;
+            color: #8490c2;
+            padding-bottom: 0.25rem; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003352}}
+            .wrapper .signup .form .group .input > input,
+            .wrapper .login .form .group .input > input {
+              font-weight: 300;
+              font-size: 1.1rem;
+              font-family: 'Plus Jakarta Sans', sans-serif;
+              letter-spacing: 0.05rem;
               width: 100%;
               border: none;
-              margin: 0.5rem 0;
-              padding: 1rem;
-              background: #3b0086;
-              border-radius: 0.25rem; }
+              outline: none;
+              color: #00ffe7;
+              padding: 0.7rem;
+              border-radius: 0.25rem;
+              background: #202346; }
               @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003361}}
-              .wrapper .signup .form .group .btn input {
-                font-weight: 300;
-                font-size: 1.1rem;
-                font-family: 'Plus Jakarta Sans', sans-serif;
-                letter-spacing: 0.05rem;
-                border: none;
-                outline: none;
-                color: #00ffe7;
-                background: transparent; }
+              .wrapper .signup .form .group .input > input::placeholder,
+              .wrapper .login .form .group .input > input::placeholder {
+                color: #8490c2; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003366}}
+          .wrapper .signup .form .group .btn, .wrapper .login .form .group .btn {
+            width: 100%;
+            border: none;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            background: #3b0086;
+            border-radius: 0.25rem; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003373}}
+            .wrapper .signup .form .group .btn input, .wrapper .login .form .group .btn input {
+              font-weight: 300;
+              font-size: 1.1rem;
+              font-family: 'Plus Jakarta Sans', sans-serif;
+              letter-spacing: 0.05rem;
+              border: none;
+              outline: none;
+              color: #00ffe7;
+              background: transparent; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003382}}
+          .wrapper .signup .form .group .error, .wrapper .login .form .group .error {
+            font-weight: 300;
+            font-size: 1.1rem;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            letter-spacing: 0.05rem;
+            color: #fb8998; }

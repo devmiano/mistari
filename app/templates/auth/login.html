@@ -1,36 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-  </head>
-  <body>
-    <h1>Login</h1>
-    {% for message in get_flashed_messages() %}
-    <p>{{message}}</p>
-    {% endfor %}
-    <form>
+{% extends 'base.html' %} {% block content %}
+<div class="wrapper">
+  <div class="login">
+    <h1 class="title">Log In</h1>
+    <div class="message">
+      {% for message in get_flashed_messages() %}
+      <p>{{message}}</p>
+      {% endfor %}
+    </div>
+    <form class="form">
       {{ login.csrf_token }}
+      <div class="group">
+        <p class="label">{{ login.email.label }}</p>
+        <p class="input">{{ login.email() }}</p>
+        {% for error in login.email.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
 
-      <p>{{ login.email.label }} {{ login.email() }}</p>
-      {% for error in login.email.errors %}
-      <li>{{error}}</li>
-      {% endfor %}
+      <div class="group">
+        <p class="label">{{ login.password.label }}</p>
+        <p class="input">{{ login.password() }}</p>
+        {% for error in login.password.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
 
-      <p>{{ login.password.label }} {{ login.password() }}</p>
-      {% for error in login.password.errors %}
-      <li>{{error}}</li>
-      {% endfor %}
-
-      <p>{{ login.submit.label }} {{ login.submit() }}</p>
-      {% for error in login.submit.errors %}
-      <li>{{error}}</li>
-      {% endfor %}
+      <div class="group">
+        <button class="btn">{{ login.submit() }}</button>
+        {% for error in login.submit.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
     </form>
-    <p>
-      Dont have an account? <a href="{{url_for('auth.signup')}}">Sign up</a>
+    <p class="text">
+      Dont have an account?
+      <a class="link" href="{{url_for('auth.signup')}}">Sign Up</a>
     </p>
-  </body>
-</html>
+  </div>
+</div>
+{% endblock %}

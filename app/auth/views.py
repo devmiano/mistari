@@ -16,7 +16,7 @@ def login():
     
     flash('Invalid email or password')
   
-  title = 'Login'
+  title = 'Sign in to your Account'
   return render_template('auth/login.html', title=title, login=login)
 
 @auth.route('/signup', methods=['GET', 'POST'])
@@ -28,7 +28,7 @@ def signup():
     db.session.commit()
     return redirect(url_for('auth.login'))
   
-  title = 'New Account'
+  title = 'Create a new Account'
   return render_template('auth/signup.html', signup=signup, title=title)
 
 @auth.route('/logout')
