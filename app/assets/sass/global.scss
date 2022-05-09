@@ -119,14 +119,14 @@
   .container {
     @include col;
     width: 80%;
-    padding: 1rem;
+    padding: 2rem;
     overflow: auto;
     color: $text-light;
 
     .hero {
       @include row;
       width: 100%;
-      height: 30rem;
+      height: 24rem;
       align-items: center;
       justify-content: space-between;
       background-color: #3b0086;
@@ -160,7 +160,7 @@
       }
       .hero-image {
         margin-right: 2rem;
-        height: 30rem;
+        height: 24rem;
       }
     }
   }
@@ -391,4 +391,172 @@
       }
     }
   }
+}
+
+@mixin category-card {
+  width: 25rem;
+  height: 25rem;
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin category-image {
+  left: 2rem;
+  top: 2rem;
+  padding: 2rem;
+  position: absolute;
+  border-radius: 5rem;
+
+  .icon {
+    height: 2rem;
+  }
+}
+
+@mixin category-title {
+  color: $text-dark;
+  font-weight: 600;
+  font-size: 2.4rem;
+  font-family: $roboto;
+}
+
+@mixin category-link {
+  right: 2rem;
+  bottom: 2rem;
+  padding: 1.5rem;
+  position: absolute;
+  border-radius: 5rem;
+  text-decoration: none;
+  background-color: $dark;
+
+  .arrow {
+    height: 1.5rem;
+  }
+}
+
+.elevator {
+  @include category-card;
+  background-color: $red-light;
+
+  .image {
+    @include category-image;
+    background-color: $red;
+  }
+
+  .title {
+    @include category-title;
+  }
+  .link {
+    @include category-link;
+  }
+}
+.word {
+  @include category-card;
+  background-color: $orange-light;
+
+  .image {
+    @include category-image;
+    background-color: $orange;
+  }
+
+  .title {
+    @include category-title;
+  }
+  .link {
+    @include category-link;
+  }
+}
+.competitor {
+  @include category-card;
+  background-color: $yellow-light;
+
+  .image {
+    @include category-image;
+    background-color: $yellow;
+  }
+
+  .title {
+    @include category-title;
+  }
+  .link {
+    @include category-link;
+  }
+}
+.twitter {
+  @include category-card;
+  background-color: $blue-light;
+
+  .image {
+    @include category-image;
+    background-color: $blue;
+  }
+
+  .title {
+    @include category-title;
+  }
+  .link {
+    @include category-link;
+  }
+}
+.question {
+  @include category-card;
+  background-color: $green-light;
+
+  .image {
+    @include category-image;
+    background-color: $green;
+  }
+
+  .title {
+    @include category-title;
+  }
+  .link {
+    @include category-link;
+  }
+}
+.rhyme {
+  @include category-card;
+  background-color: $indigo-light;
+
+  .image {
+    @include category-image;
+    background-color: $indigo;
+  }
+
+  .title {
+    @include category-title;
+  }
+  .link {
+    @include category-link;
+  }
+}
+.pixar {
+  @include category-card;
+  background-color: $violet-light;
+
+  .image {
+    @include category-image;
+    background-color: $violet;
+  }
+
+  .title {
+    @include category-title;
+  }
+  .link {
+    @include category-link;
+  }
+}
+
+#categories {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }
