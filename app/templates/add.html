@@ -1,5 +1,147 @@
 {% extends 'base.html' %} {% block content %}
-<div class="add">
-  <h1>Add a Pitch</h1>
-</div>
+<main class="app">
+  {% include 'sidebar.html' %}
+  <section class="container">
+    {% include 'topbar.html' %}
+    <div class="add">
+      <h1>Choose a category to get started</h1>
+    </div>
+
+    <div id="categories">
+      <div class="elevator">
+        <div class="image">
+          <img
+            class="icon"
+            src="../assets/icons/category/elevator.svg"
+            alt="elevator"
+          />
+        </div>
+
+        <h3 class="title">The<br />Elevator Pitch</h3>
+
+        <a class="link" href="/elevator">
+          <img
+            class="arrow"
+            src="../assets/icons/arrow-right.svg"
+            alt="arrow-right"
+          />
+        </a>
+      </div>
+      <div class="word">
+        <div class="image">
+          <img
+            class="icon"
+            src="../assets/icons/category/word.svg"
+            alt="word"
+          />
+        </div>
+
+        <h3 class="title">The<br />One Word Pitch</h3>
+
+        <a class="link" href="/word">
+          <img
+            class="arrow"
+            src="../assets/icons/arrow-right.svg"
+            alt="arrow-right"
+          />
+        </a>
+      </div>
+      <div class="competitor">
+        <div class="image">
+          <img
+            class="icon"
+            src="../assets/icons/category/competitor.svg"
+            alt="competitor"
+          />
+        </div>
+
+        <h3 class="title">The<br />Competitor Pitch</h3>
+
+        <a class="link" href="/competitor">
+          <img
+            class="arrow"
+            src="../assets/icons/arrow-right.svg"
+            alt="arrow-right"
+          />
+        </a>
+      </div>
+      <div class="twitter">
+        <div class="image">
+          <img
+            class="icon"
+            src="../assets/icons/category/twitter.svg"
+            alt="twitter"
+          />
+        </div>
+
+        <h3 class="title">The<br />Twitter Pitch</h3>
+
+        <a class="link" href="/twitter">
+          <img
+            class="arrow"
+            src="../assets/icons/arrow-right.svg"
+            alt="arrow-right"
+          />
+        </a>
+      </div>
+      <div class="question">
+        <div class="image">
+          <img
+            class="icon"
+            src="../assets/icons/category/question.svg"
+            alt="question"
+          />
+        </div>
+
+        <h3 class="title">The<br />Question Pitch</h3>
+
+        <a class="link" href="/question">
+          <img
+            class="arrow"
+            src="../assets/icons/arrow-right.svg"
+            alt="arrow-right"
+          />
+        </a>
+      </div>
+      <div class="rhyme">
+        <div class="image">
+          <img
+            class="icon"
+            src="../assets/icons/category/rhyme.svg"
+            alt="rhyme"
+          />
+        </div>
+
+        <h3 class="title">The<br />Rhyme Pitch</h3>
+
+        <a class="link" href="/rhyme">
+          <img
+            class="arrow"
+            src="../assets/icons/arrow-right.svg"
+            alt="arrow-right"
+          />
+        </a>
+      </div>
+      <div class="pixar">
+        <div class="image">
+          <img
+            class="icon"
+            src="../assets/icons/category/pixar.svg"
+            alt="pixar"
+          />
+        </div>
+
+        <h3 class="title">The<br />Pixar Pitch</h3>
+
+        <a class="link" href="/pixar">
+          <img
+            class="arrow"
+            src="../assets/icons/arrow-right.svg"
+            alt="arrow-right"
+          />
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
 {% endblock %}
