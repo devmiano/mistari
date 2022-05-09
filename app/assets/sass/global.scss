@@ -14,24 +14,22 @@
 }
 
 @mixin link {
-  padding: 1rem 2rem;
-  font-weight: 300;
-  font-family: $plus;
+  font-weight: 200;
+  font-family: $outfit;
   text-decoration: none;
-  letter-spacing: 0.05rem;
 }
 
 @mixin title {
   font-weight: 500;
   font-size: 2.4rem;
-  font-family: $roboto;
+  font-family: $gochi;
   letter-spacing: 0.05rem;
 }
 
 @mixin alt-text {
   font-weight: 300;
-  font-size: 1.1rem;
-  font-family: $plus;
+  font-size: 0.8rem;
+  font-family: $quest;
   letter-spacing: 0.05rem;
 }
 
@@ -44,10 +42,10 @@
   .sidebar {
     @include col;
     top: 0;
-    width: 20%;
+    width: 16%;
     z-index: 100;
     height: 100vh;
-    padding: 1rem;
+    padding: 0.5rem;
     position: sticky;
     align-items: center;
     justify-content: space-between;
@@ -58,14 +56,14 @@
       width: 100%;
       color: $primary;
       font-weight: 500;
-      font-size: 1.3rem;
-      font-family: $roboto;
+      font-family: $gochi;
+      font-size: 2.4rem;
       text-transform: uppercase;
       text-align: center;
 
       &:hover {
         color: $primary;
-        border-radius: 0.25rem;
+        border-radius: 0.2rem;
         background-color: $text-dark;
       }
     }
@@ -76,21 +74,23 @@
         @include row;
         @include link;
         width: 100%;
-        margin: 0.5rem 0;
+        margin: 0.2rem 0;
+        padding: 0.6rem 0.8rem;
         color: $text-light;
 
         &:hover {
           color: $primary;
-          border-radius: 0.25rem;
+          border-radius: 0.2rem;
           background-color: $text-dark;
         }
 
         .nav-icon {
-          width: 1.5rem;
-          height: 1.5rem;
+          width: 1.2rem;
+          height: 1.2rem;
         }
         .nav-text {
-          margin-left: 1.5rem;
+          margin-left: 0.5rem;
+          font-size: 0.8rem;
         }
       }
     }
@@ -99,43 +99,45 @@
       @include link;
       width: 100%;
       color: $text-light;
+      padding: 0.6rem 0.8rem;
 
       &:hover {
         color: $primary;
-        border-radius: 0.25rem;
+        border-radius: 0.2rem;
         background-color: $text-dark;
       }
 
       .nav-icon {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 0.5rem;
+        height: 0.5rem;
       }
       .nav-text {
-        margin-left: 1.5rem;
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
       }
     }
   }
 
   .container {
     @include col;
-    width: 80%;
-    padding: 2rem;
+    width: 84%;
+    padding: 1rem;
     overflow: auto;
     color: $text-light;
 
     .hero {
       @include row;
       width: 100%;
-      height: 24rem;
+      height: 18rem;
       align-items: center;
       justify-content: space-between;
       background-color: #3b0086;
-      border-radius: 0.5rem;
+      border-radius: 0.25rem;
 
       .hero-content {
         @include col;
         height: auto;
-        padding: 2rem;
+        padding-left: 3rem;
         align-items: flex-start;
 
         .hero-title {
@@ -144,23 +146,24 @@
         }
         .hero-text {
           color: $light;
-          margin: 1rem 0;
-          font-weight: 400;
-          font-size: 1.3rem;
-          font-family: $plus;
+          margin-bottom: 1.5rem;
+          font-weight: 300;
+          font-size: 1rem;
+          font-family: $quest;
           letter-spacing: 0.05rem;
         }
         .hero-cta {
           @include link;
           color: $bg;
-          font-weight: 500;
-          border-radius: 0.25rem;
+          font-weight: 400;
+          padding: 0.5rem 0.8rem;
+          border-radius: 0.2rem;
           background-color: $primary;
         }
       }
       .hero-image {
         margin-right: 2rem;
-        height: 24rem;
+        height: 18rem;
       }
     }
   }
@@ -168,15 +171,16 @@
 
 .active {
   color: $primary !important;
-  border-radius: 0.25rem;
+  border-radius: 0.2rem;
   background-color: $text-dark;
 }
 
 .topbar {
   @include row;
   width: 100%;
+  height: 3rem;
   align-items: center;
-  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
   justify-content: flex-end;
 
   .bar-search {
@@ -184,16 +188,18 @@
     height: 100%;
     align-items: center;
     background-color: $dark;
-    border-radius: 0.25rem 0 0 0.25rem;
+    border-radius: 0.2rem 0 0 0.2rem;
 
     .search {
+      height: 100%;
       width: 20rem;
       border: none;
       outline: none;
       color: $primary;
-      font-weight: 400;
-      font-size: 1.1rem;
-      padding-left: 0.8rem;
+      font-family: $outfit;
+      font-weight: 200;
+      font-size: 1rem;
+      padding: 0.5rem 0.8rem;
       letter-spacing: 0.05rem;
       background: transparent;
 
@@ -203,14 +209,15 @@
     }
     .bar-btn {
       @include link;
+      height: 100%;
       border: none;
-      padding: 1rem;
+      padding: 0.5rem 1rem;
       cursor: pointer;
       background-color: $text-400;
-      border-radius: 0 0.25rem 0.25rem 0;
+      border-radius: 0 0.2rem 0.2rem 0;
       .bar-icon {
-        width: 1.7rem;
-        height: 1.5rem;
+        width: 1rem;
+        height: 1rem;
       }
     }
   }
@@ -218,41 +225,44 @@
   .bar-add {
     @include link;
     @include col;
-
-    color: $bg;
     height: 100%;
-    padding: 1rem;
+    color: $bg;
+    padding: 0.7rem 1rem;
     margin-left: 1rem;
     align-items: center;
-    border-radius: 0.25rem;
+    border-radius: 0.2rem;
     justify-content: center;
     background-color: $primary;
     .add-icon {
-      width: 1.7rem;
-      height: 1.4rem;
+      width: 1rem;
+      height: 1rem;
     }
   }
 
   .bar-links {
     @include row;
+    height: 100%;
     margin-left: 5rem;
     align-items: center;
     .bar-user {
       @include link;
       color: $bg;
+      padding: 0.8rem 1rem;
       font-weight: 400;
       font-size: 1.1rem;
-      border-radius: 0.25rem;
+      border-radius: 0.2rem;
       letter-spacing: 0.05rem;
       background-color: $primary;
     }
     .bar-logout {
       @include link;
       color: $bg;
+      height: 100%;
+      padding: 0.8rem 1rem;
       font-weight: 400;
-      font-size: 1.1rem;
-      margin-left: 1rem;
-      border-radius: 0.25rem;
+      font-size: 1rem;
+      margin-left: 0.5rem;
+      border-radius: 0.2rem;
       background-color: $dark;
       letter-spacing: 0.05rem;
     }
@@ -260,9 +270,10 @@
       @include link;
       color: $primary;
       font-weight: 400;
-      font-size: 1.1rem;
-      margin-left: 1rem;
-      border-radius: 0.25rem;
+      font-size: 1rem;
+      padding: 0.8rem 1rem;
+      margin-left: 0.5rem;
+      border-radius: 0.2rem;
       letter-spacing: 0.05rem;
       background-color: $text-dark;
     }
@@ -270,9 +281,10 @@
       @include link;
       color: $primary;
       font-weight: 400;
-      font-size: 1.1rem;
-      margin-left: 1rem;
-      border-radius: 0.25rem;
+      font-size: 1rem;
+      padding: 0.8rem 0.8rem;
+      margin-left: 0.5rem;
+      border-radius: 0.2rem;
       letter-spacing: 0.05rem;
       background-color: $accent-300;
     }
@@ -303,7 +315,7 @@
       .link {
         @include link;
         color: $primary;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         letter-spacing: 0.05rem;
       }
     }
@@ -313,14 +325,14 @@
         @include row;
         width: 100%;
         display: grid;
-        gap: 1.25rem;
+        gap: 1rem;
         margin-top: 1rem;
         grid-template-columns: auto auto;
 
         .group {
           margin-bottom: 0;
           margin-top: 0;
-          .label {
+          .label > label {
             @include alt-text;
             padding-bottom: 0.25rem;
           }
@@ -329,9 +341,9 @@
             border: none;
             outline: none;
             color: $primary;
-            padding: 0.7rem;
+            padding: 0.5rem;
             background: $text-dark;
-            border-radius: 0.25rem;
+            border-radius: 0.2rem;
 
             &::placeholder {
               color: $text-light;
@@ -345,23 +357,25 @@
       }
       .group {
         width: 100%;
-        margin: 1.5rem 0;
+        margin: 1rem 0;
         align-items: flex-start;
         justify-content: flex-start;
 
-        .label {
+        .label > label {
           @include alt-text;
           color: $text-light;
-          padding-bottom: 0.25rem;
+          font-size: 0.8rem;
+          padding-bottom: 0.2rem;
         }
         .input > input {
           @include alt-text;
+          font-size: 0.8rem;
           width: 100%;
           border: none;
           outline: none;
           color: $primary;
           padding: 0.7rem;
-          border-radius: 0.25rem;
+          border-radius: 0.2rem;
           background: $text-dark;
 
           &::placeholder {
@@ -372,9 +386,9 @@
           width: 100%;
           border: none;
           margin: 0.5rem 0;
-          padding: 1rem;
+          padding: 0.7rem;
           background: $accent-400;
-          border-radius: 0.25rem;
+          border-radius: 0.2rem;
 
           input {
             @include alt-text;
@@ -394,46 +408,45 @@
 }
 
 @mixin category-card {
-  width: 25rem;
-  height: 25rem;
-  padding: 2rem;
+  width: 14rem;
+  height: 14rem;
+  padding: 1rem;
   position: relative;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
 @mixin category-image {
-  left: 2rem;
-  top: 2rem;
-  padding: 2rem;
+  left: 1rem;
+  top: 1rem;
+  padding: 1rem;
   position: absolute;
   border-radius: 5rem;
 
   .icon {
-    height: 2rem;
+    height: 1.5rem;
   }
 }
 
 @mixin category-title {
   color: $text-dark;
-  font-weight: 600;
-  font-size: 2.4rem;
-  font-family: $roboto;
+  font-size: 1.3rem;
+  font-family: $gochi;
 }
 
 @mixin category-link {
-  right: 2rem;
-  bottom: 2rem;
-  padding: 1.5rem;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 1rem;
   position: absolute;
   border-radius: 5rem;
   text-decoration: none;
   background-color: $dark;
 
   .arrow {
-    height: 1.5rem;
+    height: 0.7rem;
   }
 }
 
@@ -557,6 +570,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }

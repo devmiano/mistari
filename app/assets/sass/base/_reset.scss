@@ -5,7 +5,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 /* // Remove default margin */
@@ -29,10 +29,6 @@ ol[role='list'] {
 }
 
 // Set the default font size and family
-
-html {
-  font-family: 'Work Sans', sans-serif;
-}
 
 /* // Set core root defaults */
 html:focus-within {
@@ -85,7 +81,8 @@ select {
 /* // Scrollbar styles */
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.4rem;
+  border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -94,6 +91,7 @@ select {
 
 ::-webkit-scrollbar-thumb {
   background: #00ffe7;
+  border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {

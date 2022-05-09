@@ -20,7 +20,7 @@ def login():
   title = 'Sign in to your Account'
   return render_template('auth/login.html', title=title, login=login)
 
-@auth.route('/signup', methods=['POST'])
+@auth.route('/signup', methods=['GET','POST'])
 def signup():
   signup = RegistrationForm()
   if signup.validate_on_submit():
