@@ -46,16 +46,15 @@ class Role(db.Model):
   users = db.relationship('User', backref='role', lazy='dynamic')
   
   def __repr__(self):
-    return f'User {self.name}'
+    return f'Role {self.name}'
   
 class Pitch(db.Model):
   __tablename__ = 'pitches'
   id = db.Column(db.Integer, primary_key=True)
-  title = db.Column(db.String(255), nullable=False)
   caption = db.Column(db.String(255))
   posted = db.Column(db.DateTime,default=datetime.utcnow)
   user_id = db.Column(db.Integer,db.ForeignKey("users.id"))
-  category_id = db.Column(db.Integer,db.ForeignKey('categories.id'))
+  category_name = db.Column(db.Integer,db.ForeignKey('categories.id'))
   comments = db.relationship('Comment', backref='pitch', lazy='dynamic')
   upvote = db.Column(db.Integer)
   downvote = db.Column(db.Integer)
@@ -75,12 +74,13 @@ class Pitch(db.Model):
     return category_pitches
   
   def __repr__(self):
-    return f'User {self.title}'
+    return f'Pitch {self.title}'
   
 class Category(db.Model):
   __tablename__ = 'categories'
   id = db.Column(db.Integer, primary_key=True)
-  name = db.Column(db.String(255))
+  name = db.Column(db.String(255), unique=True, index=True)
+  title = db.Column(db.String(255))
   pitches = db.relationship('Pitch', backref='category', lazy='dynamic')
   
   @classmethod
@@ -89,7 +89,7 @@ class Category(db.Model):
     return pitches_by_category
   
   def __repr__(self):
-    return f'User {self.name}'
+    return f'{self.name}'
   
 
 class Comment(db.Model):
@@ -116,4 +116,4 @@ class Comment(db.Model):
     return user_comments
   
   def __repr__(self):
-    return f'User {self.caption}'
+    return f'{self.comment}'

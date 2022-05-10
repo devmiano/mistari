@@ -2,7 +2,7 @@
 <div class="wrapper">
   <div class="">
     <h1 class="title">Update Profile</h1>
-    <form class="form">
+    <form class="form" method="post">
       {{ update.csrf_token }}
       <div class="container">
         <div class="group">
@@ -27,6 +27,8 @@
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
+      <button>{{update.submit()}}</button>
     </form>
   </div>
 </div>
+{% endblock %}
