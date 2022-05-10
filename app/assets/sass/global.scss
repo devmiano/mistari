@@ -573,3 +573,123 @@
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
+
+@mixin pitch-title {
+  color: $violet;
+  font-size: 1.1rem;
+  font-family: $gochi;
+}
+@mixin pitch-caption {
+  color: $primary;
+  font-size: 1.7rem;
+  font-family: $outfit;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+}
+@mixin pitch-date {
+  color: $text-100;
+  font-size: 1rem;
+  font-family: $goth;
+}
+@mixin pitch-text {
+  color: $text-light;
+  font-size: 1rem;
+  font-family: $outfit;
+}
+@mixin pitch-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#pitches {
+  .pitch {
+    width: 24rem;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: $dark;
+    .category {
+      @include pitch-title;
+      padding: 0.5rem 1rem;
+      margin-bottom: 1rem;
+      background-color: $bg;
+      width: fit-content;
+      border-radius: 0.2rem;
+    }
+    .caption {
+      @include pitch-caption;
+      text-align: center;
+    }
+    .date {
+      @include pitch-date;
+      float: right;
+      padding: 0.5rem 1rem;
+      background-color: $text-dark;
+      margin: 1rem 0;
+      border-radius: 0.2rem;
+    }
+    .line {
+      border: 0.21rem solid $text-400;
+      border-radius: 5px;
+      width: 100%;
+    }
+    .footer {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      @include pitch-row;
+      justify-content: space-between;
+      .left {
+        @include pitch-row;
+        gap: 0.7rem;
+        .upvote {
+          @include pitch-row;
+          gap: 0.4rem;
+          .count {
+            @include pitch-date;
+            color: $orange-light;
+          }
+          .icon {
+            height: 1.5rem;
+            width: 1.5rem;
+          }
+        }
+        .downvote {
+          @include pitch-row;
+          gap: 0.4rem;
+          .count {
+            @include pitch-date;
+            color: $red-light;
+          }
+          .icon {
+            height: 1.5rem;
+            width: 1.5rem;
+          }
+        }
+        .comment {
+          @include pitch-row;
+          gap: 0.4rem;
+          .count {
+            @include pitch-date;
+            color: $blue-light;
+          }
+          .icon {
+            height: 1.5rem;
+            width: 1.5rem;
+          }
+        }
+      }
+      .user {
+        @include pitch-row;
+        gap: 0.4rem;
+        .text {
+          @include pitch-text;
+        }
+        .icon {
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}
