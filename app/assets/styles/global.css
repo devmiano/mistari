@@ -789,14 +789,14 @@
     gap: 0.5rem;
     margin-top: 0.5rem; }
 
-    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003605}}
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003607}}
     #pitches .pitch {
       width: 24rem;
       height: auto;
       padding: 1rem;
       border-radius: 0.25rem;
       background-color: #191c38; }
-      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003610}}
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003612}}
       #pitches .pitch .category {
         color: #a157ff;
         font-size: 1.1rem;
@@ -806,7 +806,7 @@
         background-color: #13152a;
         width: fit-content;
         border-radius: 0.2rem; }
-        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003618}}
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003620}}
         #pitches .pitch .caption {
           color: #00ffe7;
           font-size: 1.7rem;
@@ -814,7 +814,7 @@
           letter-spacing: 0.05rem;
           font-weight: 300;
           text-align: center; }
-          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003622}}
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003624}}
           #pitches .pitch .date {
             color: #575db2;
             font-size: 1rem;
@@ -824,10 +824,8 @@
             background-color: #202346;
             margin: 1rem 0;
             border-radius: 0.2rem; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003630}}
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003632}}
             #pitches .pitch .line {
-              border: 0.21rem solid #2d3162;
-              border-radius: 5px;
               width: 100%; }
               @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003635}}
               #pitches .pitch .footer {
@@ -902,7 +900,9 @@
                   #pitches .pitch .footer .user .text {
                     color: #8490c2;
                     font-size: 1rem;
-                    font-family: 'Outfit', sans-serif; }
+                    font-family: 'Outfit', sans-serif;
+                    font-weight: 300;
+                    letter-spacing: 0.05rem; }
                     @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\00003685}}
                     #pitches .pitch .footer .user .icon {
                       height: 1.5rem; }

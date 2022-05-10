@@ -595,6 +595,8 @@
   color: $text-light;
   font-size: 1rem;
   font-family: $outfit;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
 }
 @mixin pitch-row {
   display: flex;
@@ -630,8 +632,6 @@
       border-radius: 0.2rem;
     }
     .line {
-      border: 0.21rem solid $text-400;
-      border-radius: 5px;
       width: 100%;
     }
     .footer {
