@@ -256,14 +256,13 @@
     }
     .bar-logout {
       @include link;
-      color: $bg;
-      height: 100%;
+      color: $primary;
       padding: 0.8rem 1rem;
       font-weight: 400;
       font-size: 1rem;
       margin-left: 0.5rem;
       border-radius: 0.2rem;
-      background-color: $dark;
+      background-color: $accent-400;
       letter-spacing: 0.05rem;
     }
     .bar-login {
@@ -308,6 +307,10 @@
       @include title;
       color: $primary;
       margin-bottom: 0.5rem;
+    }
+    .message {
+      @include alt-text;
+      color: $red;
     }
     .text {
       @include alt-text;
@@ -389,6 +392,7 @@
           padding: 0.7rem;
           background: $accent-400;
           border-radius: 0.2rem;
+          cursor: pointer;
 
           input {
             @include alt-text;
@@ -401,6 +405,47 @@
         .error {
           @include alt-text;
           color: $red;
+        }
+      }
+      .remember {
+        @include alt-text;
+        display: flex;
+        align-items: flex-start;
+        color: $text-light;
+
+        .label > label {
+          font-size: 0.8rem;
+          margin-right: 1rem;
+        }
+        .input > input[type='checkbox'] {
+          margin-top: 0.2rem;
+          /* Add if not using autoprefixer */
+          -webkit-appearance: none;
+          appearance: none;
+          /* For iOS < 15 to remove gradient background */
+          background-color: $text-dark;
+          /* Not removed via appearance */
+          margin: 0;
+          font: inherit;
+          color: currentColor;
+          width: 1.15em;
+          height: 1.15em;
+          border: 0.15em solid currentColor;
+          border-radius: 0.15em;
+          transform: translateY(-0.075em);
+          display: grid;
+          place-content: center;
+        }
+        .input > input[type='checkbox']::before {
+          content: '';
+          width: 0.65em;
+          height: 0.65em;
+          transform: scale(0);
+          transition: 120ms transform ease-in-out;
+          box-shadow: inset 1em 1em $primary;
+        }
+        .input > input[type='checkbox']:checked::before {
+          transform: scale(1);
         }
       }
     }
@@ -689,6 +734,102 @@
         .icon {
           height: 1.5rem;
         }
+      }
+    }
+  }
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  .head {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: $accent-400;
+    border-radius: 0.25rem;
+
+    .left {
+      display: flex;
+      align-items: flex-end;
+      .user {
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0.2rem;
+        background-color: $blue-light;
+
+        .image {
+          background-position: center;
+          background-size: cover;
+          height: 11rem;
+          width: 11rem;
+          border-radius: 15rem;
+        }
+        .username {
+          @include pitch-date;
+          color: $text-300;
+        }
+        .email {
+          @include pitch-date;
+          color: $text-400;
+        }
+        .form {
+          margin-top: 1rem;
+          font-size: inherit;
+
+          input[type='file' i] {
+            appearance: none;
+            background-color: initial;
+            cursor: default;
+            align-items: baseline;
+            color: $bg;
+            text-overflow: ellipsis;
+            font-size: 0.8rem;
+            text-align: start !important;
+            border: none;
+            padding: 0.2rem;
+            overflow: hidden !important;
+          }
+
+          input[type='submit' i] {
+            border: none;
+            font-family: $outfit;
+            font-size: 0.8rem;
+            outline: none;
+            color: $bg;
+            padding: 0.3rem 0.8rem;
+            border-radius: 0.2rem;
+          }
+        }
+      }
+      .bio {
+        margin-left: 1rem;
+
+        h1 {
+          font-family: $gochi;
+        }
+        p {
+          font-family: $outfit;
+        }
+      }
+    }
+    .link {
+      padding: 0.2rem;
+
+      a {
+        @include pitch-date;
+        color: $accent-400;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 0.2rem;
+        background-color: $primary;
       }
     }
   }

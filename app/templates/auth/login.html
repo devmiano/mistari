@@ -10,9 +10,9 @@
     <form class="form" method="post">
       {{ login.csrf_token }}
       <div class="group">
-        <p class="label">{{ login.email.label }}</p>
-        <p class="input">{{ login.email() }}</p>
-        {% for error in login.email.errors %}
+        <p class="label">{{ login.username.label }}</p>
+        <p class="input">{{ login.username() }}</p>
+        {% for error in login.username.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
@@ -21,6 +21,14 @@
         <p class="label">{{ login.password.label }}</p>
         <p class="input">{{ login.password() }}</p>
         {% for error in login.password.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+
+      <div class="remember">
+        <p class="label">{{ login.remember.label }}</p>
+        <p class="input">{{ login.remember() }}</p>
+        {% for error in login.remember.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>

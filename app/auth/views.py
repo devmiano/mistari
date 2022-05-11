@@ -10,7 +10,7 @@ from ..email import mail_message
 def login():
   login = LoginForm()
   if login.validate_on_submit():
-    user = User.query.filter_by(email = login.email.data).first()
+    user = User.query.filter_by(username = login.username.data).first()
     if user is not None and user.verify_password(login.password.data):
       login_user(user, login.remember.data)
       return redirect(request.args.get('next') or url_for('main.index'))
