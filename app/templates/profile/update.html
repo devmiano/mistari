@@ -1,6 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 <div class="wrapper">
-  <div class="">
+  <div class="update">
     <h1 class="title">Update Profile</h1>
     <form class="form" method="post">
       {{ update.csrf_token }}
@@ -27,7 +27,7 @@
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
-      <button>{{update.submit()}}</button>
+      <div class="group"><button class="btn">{{update.submit()}}</button></div>
     </form>
   </div>
 </div>

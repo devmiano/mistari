@@ -9,12 +9,26 @@
       autocomplete="on"
     />
     <button class="bar-btn" type="submit">
-      <img class="bar-icon" src="../assets/icons/search.svg" alt="search" />
+      <img
+        class="bar-icon"
+        src="{{url_for('static', filename='icons/search.svg')}}"
+        alt="search"
+      />
     </button>
   </form>
+  {% if current_user.is_authenticated %}
+  <a class="bar-add" href="{{url_for('main.add',uname=current_user.username)}}">
+    <img
+      class="add-icon"
+      src="{{url_for('static', filename='icons/plus.svg')}}"
+      alt="plus"
+    />
+  </a>
+  {% else %}
   <a class="bar-add" href="/add">
     <img class="add-icon" src="../assets/icons/plus.svg" alt="plus" />
   </a>
+  {% endif %}
   <div class="bar-links">
     {% if current_user.is_authenticated %}
     <a

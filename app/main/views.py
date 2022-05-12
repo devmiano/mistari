@@ -1,8 +1,8 @@
 from flask import render_template,request,redirect,url_for,abort
 from flask_login import login_required, current_user
 
-from app.main.forms import UpdateProfile, PitchForm
-from ..models import User
+from app.main.forms import AddPitch, UpdateProfile
+from ..models import Pitch, User, Category
 from .. import db,photos
 from . import main
 
@@ -59,20 +59,22 @@ def update_pic(uname):
     
   return redirect(url_for('main.profile', uname=uname))
 
-@main.route('/add')
+@main.route('/user/<uname>/add',methods=['GET', 'POST'])
 @login_required
-def add():
+def add(uname):
+  user = User.query.filter_by(username=uname).first()
   '''function that renders the add page'''
   title = 'Add a Pitch'
   
-  return render_template('add.html', title=title)
+  
+  if user is None:
+    abort(404)
+  
+  categories = Category.query.all()
+  
+  
+  # category_id = Category.query.filter_by().first()
+  # add_pitch = AddPitch()
+  
+  return render_template('profile/add.html', title=title, categories=categories, uname=user.username)
 
-@main.route('/add/new/<int:id>', methods=[ 'GET','POST'])
-@login_required
-def add_pitch(id):
-  '''function that renders the add page'''
-  title = 'Add a Pitch'
-  pitch = PitchForm()
-  
-  
-  return render_template('add.html', title=title)

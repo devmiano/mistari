@@ -108,8 +108,8 @@
       }
 
       .nav-icon {
-        width: 0.5rem;
-        height: 0.5rem;
+        width: 1.2rem;
+        height: 1.2rem;
       }
       .nav-text {
         margin-left: 0.5rem;
@@ -295,7 +295,8 @@
   height: 100vh;
   background: $accent-400;
   .signup,
-  .login {
+  .login,
+  .update {
     @include col;
     width: 50%;
     height: 100%;
@@ -371,6 +372,21 @@
           padding-bottom: 0.2rem;
         }
         .input > input {
+          @include alt-text;
+          font-size: 0.8rem;
+          width: 100%;
+          border: none;
+          outline: none;
+          color: $primary;
+          padding: 0.7rem;
+          border-radius: 0.2rem;
+          background: $text-dark;
+
+          &::placeholder {
+            color: $text-light;
+          }
+        }
+        .input > textarea {
           @include alt-text;
           font-size: 0.8rem;
           width: 100%;
@@ -479,6 +495,7 @@
   color: $text-dark;
   font-size: 1.3rem;
   font-family: $gochi;
+  text-transform: uppercase;
 }
 
 @mixin category-link {
@@ -489,6 +506,7 @@
   border-radius: 5rem;
   text-decoration: none;
   background-color: $dark;
+  cursor: pointer;
 
   .arrow {
     height: 0.7rem;
@@ -608,12 +626,22 @@
   }
 }
 
+.add-title {
+  padding: 3rem;
+
+  h1 {
+    @include category-title;
+    font-size: 2.4rem;
+    color: $primary;
+  }
+}
+
 #categories {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.5rem;
@@ -811,12 +839,20 @@
       }
       .bio {
         margin-left: 1rem;
+        margin-bottom: 2rem;
 
         h1 {
           font-family: $gochi;
+          font-size: 2.4rem;
+          color: $primary;
+          text-transform: uppercase;
+          letter-spacing: 0.05rem;
         }
         p {
           font-family: $outfit;
+          font-size: 1.1rem;
+          font-weight: 200;
+          letter-spacing: 0.05rem;
         }
       }
     }

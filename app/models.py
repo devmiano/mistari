@@ -35,6 +35,10 @@ class User(UserMixin, db.Model):
   def verify_password(self, password):
     return check_password_hash(self.password_hash, password)
   
+  @classmethod
+  def get_user(cls, usr):
+    usr_id = User.query.filter_by(username=usr).first()
+    return usr_id
   
   def __repr__(self):
       return f'User {self.username}'
@@ -54,7 +58,7 @@ class Pitch(db.Model):
   caption = db.Column(db.String(255))
   posted = db.Column(db.DateTime,default=datetime.utcnow)
   user_id = db.Column(db.Integer,db.ForeignKey("users.id"))
-  category_name = db.Column(db.Integer,db.ForeignKey('categories.id'))
+  category = db.Column(db.String(255))
   comments = db.relationship('Comment', backref='pitch', lazy='dynamic')
   upvote = db.Column(db.Integer)
   downvote = db.Column(db.Integer)
@@ -63,30 +67,15 @@ class Pitch(db.Model):
     db.session.add(self)
     db.session.commit()
     
-  @classmethod
-  def get_user_pitch(cls, user_pitch):
-    user_pitches = Pitch.query.filter_by(user_id=user_pitch).all()
-    return user_pitches
-  
-  @classmethod
-  def get_category_pitch(cls, category_pitch):
-    category_pitches = Pitch.query.filter_by(category_id=category_pitch).all()
-    return category_pitches
   
   def __repr__(self):
-    return f'Pitch {self.title}'
+    return f'Pitch {self.caption}'
   
 class Category(db.Model):
   __tablename__ = 'categories'
   id = db.Column(db.Integer, primary_key=True)
   name = db.Column(db.String(255), unique=True, index=True)
   title = db.Column(db.String(255))
-  pitches = db.relationship('Pitch', backref='category', lazy='dynamic')
-  
-  @classmethod
-  def get_pitch(cls, catergory_id):
-    pitches_by_category = Category.query.filter_by(id=catergory_id).all()
-    return pitches_by_category
   
   def __repr__(self):
     return f'{self.name}'

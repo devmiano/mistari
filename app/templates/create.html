@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block content %}
+<div class="wrapper">
+  <div class="login">
+    <h1 class="title">Add Caption</h1>
+    <div class="message">
+      {% for message in get_flashed_messages() %}
+      <p>{{message}}</p>
+      {% endfor %}
+    </div>
+    <form class="form" method="post">
+      {{ add.csrf_token }}
+      <div class="group">
+        <p class="label">{{ add.caption.label }}</p>
+        <p class="input">{{ add.caption() }}</p>
+        {% for error in add.caption.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+
+      <div class="group">
+        <button class="btn">{{ add.submit() }}</button>
+        {% for error in add.submit.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
