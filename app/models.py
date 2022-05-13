@@ -44,7 +44,7 @@ class Pitch(db.Model):
   __tablename__ = 'pitches'
   id = db.Column(db.Integer, primary_key=True)
   caption = db.Column(db.String(255), index = True)
-  posted = db.Column(db.DateTime,default=datetime.utcnow)
+  posted = db.Column(db.DateTime)
   author_id = db.Column(db.Integer,db.ForeignKey("users.id"), nullable = False)
   category = db.Column(db.String(255), nullable=False)
   comments = db.relationship('Comment', backref='pitch', lazy='dynamic')

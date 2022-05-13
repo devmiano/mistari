@@ -1,5 +1,6 @@
 from flask import render_template,request,redirect,url_for,abort
 from flask_login import login_required, current_user
+from datetime import datetime as dt
 
 from app.main.forms import AddPitch, UpdateProfile, AddComment
 from ..models import Pitch, User, Category, Downvote, Upvote, Comment
@@ -11,7 +12,7 @@ def index():
   '''function that renders the homepage'''
   title = 'Challenge yourself with one of a kind pitch deck '
   upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
-  pitch = Pitch.query.all()
+  pitch = Pitch.query.order_by(Pitch.posted.desc()).all()
  
   
   return render_template('index.html', title=title, upvotes=upvotes, pitch=pitch)
@@ -21,7 +22,7 @@ def elevator():
   '''function that renders the homepage'''
   title = 'The Elevator Pitch'
   upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
-  elevator = Pitch.query.filter_by(category='elevator').all()
+  elevator = Pitch.query.filter_by(category='elevator').order_by(Pitch.posted).all()
   
   return render_template('category/elevator.html', title=title, upvotes=upvotes, elevator=elevator)
 
@@ -31,7 +32,7 @@ def word():
   '''function that renders the homepage'''
   title = 'The One Word Pitch'
   upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
-  word = Pitch.query.filter_by(category='word').all()
+  word = Pitch.query.filter_by(category='word').order_by(Pitch.posted).all()
   
   return render_template('category/word.html', title=title, upvotes=upvotes, word=word)
 
@@ -41,7 +42,7 @@ def competitor():
   '''function that renders the homepage'''
   title = 'The Competitor Pitch'
   upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
-  competitor = Pitch.query.filter_by(category='competitor').all()
+  competitor = Pitch.query.filter_by(category='competitor').order_by(Pitch.posted).all()
   
   return render_template('category/competitor.html', title=title, upvotes=upvotes, competitor=competitor)
 
@@ -51,7 +52,7 @@ def twitter():
   '''function that renders the homepage'''
   title = 'The Twitter Pitch'
   upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
-  twitter = Pitch.query.filter_by(category='twitter').all()
+  twitter = Pitch.query.filter_by(category='twitter').order_by(Pitch.posted).all()
   
   return render_template('category/twitter.html', title=title, upvotes=upvotes, twitter=twitter)
 
@@ -61,7 +62,7 @@ def question():
   '''function that renders the homepage'''
   title = 'The Question Pitch'
   upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
-  question = Pitch.query.filter_by(category='question').all()
+  question = Pitch.query.filter_by(category='question').order_by(Pitch.posted).all()
   
   return render_template('category/question.html', title=title, upvotes=upvotes, question=question)
 
@@ -71,7 +72,7 @@ def rhyme():
   '''function that renders the homepage'''
   title = 'The Rhyme Pitch'
   upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
-  rhyme = Pitch.query.filter_by(category='rhyme').all()
+  rhyme = Pitch.query.filter_by(category='rhyme').order_by(Pitch.posted).all()
   
   return render_template('category/rhyme.html', title=title, upvotes=upvotes, rhyme=rhyme)
 
@@ -81,7 +82,7 @@ def pixar():
   '''function that renders the homepage'''
   title = 'The Pixar Pitch'
   upvotes = Upvote.get_all_upvotes(pitch_id=Pitch.id)
-  pixar = Pitch.query.filter_by(category='pixar').all()
+  pixar = Pitch.query.filter_by(category='pixar').order_by(Pitch.posted).all()
   
   return render_template('category/pixar.html', title=title, upvotes=upvotes, pixar=pixar)
 
@@ -155,13 +156,16 @@ def create(uname, cname):
   category = Category.query.filter_by(name=cname).first()
   add_pitch = AddPitch()
   '''function that renders the add page'''
+  now = dt.now()
+  
   
   
   if cname == category.name and add_pitch.validate_on_submit():
     caption = add_pitch.caption.data
     author_id = current_user._get_current_object().id
     category = category.name
-    pitch = Pitch(caption=caption, author_id=author_id, category=category)
+    posted = now.strftime("%a %d %b %Y %I:%M:%S")
+    pitch = Pitch(caption=caption, author_id=author_id, category=category, posted=posted)
     
     db.session.add(pitch)
     db.session.commit()
@@ -195,8 +199,6 @@ def comment(pitch_id):
 @login_required
 def upvote(pitch_id):
   user = current_user
-  pitch = Pitch.query.get(pitch_id)
-  pitch_upvotes = Upvote.query.filter_by(pitch_id= pitch_id)
     
   if Upvote.query.filter(Upvote.author_id==user.id,Upvote.pitch_id==pitch_id).first():
     return  redirect(url_for('main.index'))
@@ -211,8 +213,6 @@ def upvote(pitch_id):
 @login_required
 def downvote(pitch_id):
   user = current_user
-  pitch = Pitch.query.get(pitch_id)
-  pitch_downvotes = Downvote.query.filter_by(pitch_id= pitch_id)
     
   if Downvote.query.filter(Downvote.author_id==user.id,Downvote.pitch_id==pitch_id).first():
     return  redirect(url_for('main.index'))

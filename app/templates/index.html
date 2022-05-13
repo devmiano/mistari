@@ -6,16 +6,20 @@
     {% include 'topbar.html' %}
     <div class="hero">
       <div class="hero-content">
-        <h1 class="hero-title">Una Mistari?</h1>
+        <h1 class="hero-title">Je? Una Mistari?</h1>
         <p class="hero-text">
           Challenge yourself with one of a kind pitch deck for different
           scenarios, while also getting to share your pitch with others.
         </p>
-        <a class="hero-cta" href="/">Get started</a>
+        <a
+          class="hero-cta"
+          href="{{url_for('main.add',uname=current_user.username)}}"
+          >Get started</a
+        >
       </div>
       <img class="hero-image" src="../assets/images/hero.svg" alt="hero" />
     </div>
-
+    <h1 id="section-title">Recent Pitches</h1>
     <div id="pitches">{{ macro.get(pitch) }}</div>
   </section>
 </main>
