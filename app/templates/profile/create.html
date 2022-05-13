@@ -1,5 +1,59 @@
 {% extends 'base.html' %} {% block content %}
 <div class="wrapper">
+  {% if cname == 'elevator' %}
+  <div class="info">
+    <h1>How it works</h1>
+    <h4>An elevator pitch should be no more than 30 seconds in length</h4>
+  </div>
+  {% elif cname == 'word' %}
+  <div class="info">
+    <h1>How it works</h1>
+    <h4>Add a single, powerful word that best describes your brand</h4>
+  </div>
+  {% elif cname == 'competitor' %}
+  <div class="info">
+    <h1>How it works</h1>
+    <h4>
+      Give an overview of your business plan, services, products, and growth
+      traction. Communicate clearly what it is you do and hows it is better than
+      the rival companies in your field.
+    </h4>
+  </div>
+  {% elif cname == 'twitter' %}
+  <div class="info">
+    <h1>How it works</h1>
+    <h4>
+      Summarize your whole idea in one punchy sentence. In one or two phrases
+      describe why you do what you do, how you do it and what it is you do.
+    </h4>
+  </div>
+  {% elif cname == 'question' %}
+  <div class="info">
+    <h1>How it works</h1>
+    <h4>
+      Introduce a Call-To-Action question that one can follow up on while
+      apealing to the audience emotions.
+    </h4>
+  </div>
+  {% elif cname == 'rhyme' %}
+  <div class="info">
+    <h1>How it works</h1>
+    <h4>Use words that rhyme and follow a pattern wow your audience</h4>
+  </div>
+  {% elif cname == 'pixar' %}
+  <div class="info">
+    <h1>How it works</h1>
+    <h4>Create a new pixar following this format:</h4>
+    <div class="list">
+      <p>1. Once upon a time _____</p>
+      <p>2. Every day ______</p>
+      <p>3. One day _______</p>
+      <p>4. Because of that _______</p>
+      <p>5. Because of that _______</p>
+      <p>6. Until finally _______</p>
+    </div>
+  </div>
+  {% endif %}
   <div class="login">
     <h1 class="title">{{title}}</h1>
     <div class="message">
