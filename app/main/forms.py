@@ -11,3 +11,7 @@ class UpdateProfile(FlaskForm):
 class AddPitch(FlaskForm):
   caption = TextAreaField('Enter your  caption')
   submit = SubmitField('Submit')
+  
+class AddComment(FlaskForm):
+  caption = TextAreaField('Add your  comment')
+  submit = SubmitField('Submit')

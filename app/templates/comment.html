@@ -1,0 +1,46 @@
+{% extends 'base.html' %} {% import 'macros.html' as macro %} {% block content
+%}
+<div class="wrapper">
+  <a href="{{url_for('main.index')}}" class="back">
+    <img
+      class="icon"
+      src="{{url_for('static', filename='icons/arrow-left.svg')}}"
+      alt=""
+    />
+    <p class="text">back</p>
+  </a>
+
+  <div class="info">
+    <h1>{{pitch.category}}</h1>
+    <h4>{{pitch.caption}}</h4>
+    <div class="list">
+      <p>{{macro.getComments(comments)}}</p>
+    </div>
+  </div>
+  <div class="login">
+    <h1 class="title">{{title}}</h1>
+    <div class="message">
+      {% for message in get_flashed_messages() %}
+      <p>{{message}}</p>
+      {% endfor %}
+    </div>
+    <form class="form" method="post">
+      {{ form.csrf_token }}
+      <div class="group">
+        <p class="label">{{ form.caption.label }}</p>
+        <p class="input">{{ form.caption() }}</p>
+        {% for error in form.caption.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+
+      <div class="group">
+        <button class="btn">{{ form.submit() }}</button>
+        {% for error in form.submit.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,59 @@
+{% macro get(categories) %} {% if categories %} {% for category in categories %}
+<div class="pitch">
+  <p class="category">{{category.category}}</p>
+  <p class="caption">{{category.caption}}</p>
+  <p class="date">{{category.posted | date}}</p>
+  <img class="line" src="../assets/icons/pitch/line.svg" alt="line" />
+  <div class="footer">
+    <div class="left">
+      <a
+        class="upvote"
+        href="{{url_for('main.upvote',pitch_id = category.id)}}"
+      >
+        <img class="icon" src="../assets/icons/pitch/like.svg" alt="like" />
+        <p class="count">{{category.upvotes.count()}}</p>
+      </a>
+      <a
+        class="downvote"
+        href="{{url_for('main.downvote',pitch_id = category.id)}}"
+      >
+        <img
+          class="icon"
+          src="../assets/icons/pitch/dislike.svg"
+          alt="dislike"
+        />
+        <p class="count">{{category.downvotes.count()}}</p>
+      </a>
+      <a
+        class="comment"
+        href="{{url_for('main.comment',pitch_id = category.id)}}"
+      >
+        <img
+          class="icon"
+          src="../assets/icons/pitch/comment.svg"
+          alt="comment"
+        />
+        <p class="count">{{category.comments.count()}}</p>
+      </a>
+    </div>
+    <div class="user">
+      <p class="text">{{category.user.username}}</p>
+      <img class="icon" src="../assets/icons/pitch/user.svg" alt="user" />
+    </div>
+  </div>
+</div>
+{% endfor %} {% else %} {% endif %} {% endmacro %} {% macro
+getComments(comments) %}
+<ul>
+  {% if comments %} {% for comment in comments %}
+  <div class="">
+    <p class="caption">{{ comment.caption }}</p>
+    <p class="text">{{comment.user.username}}</p>
+  </div>
+  {% endfor %} {% else %}
+
+  <p>No comments found.</p>
+  {%endif%}
+</ul>
+
+{% endmacro %}

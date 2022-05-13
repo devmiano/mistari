@@ -6,17 +6,13 @@
     {% include 'topbar.html' %}
     <div class="hero">
       <div class="hero-content">
-        <h1 class="hero-title">Una Mistari?</h1>
-        <p class="hero-text">
-          Challenge yourself with one of a kind pitch deck for different
-          scenarios, while also getting to share your pitch with others.
-        </p>
-        <a class="hero-cta" href="/">Get started</a>
+        <h1 class="hero-title">{{title}}</h1>
+        <p class="hero-text"></p>
       </div>
       <img class="hero-image" src="../assets/images/hero.svg" alt="hero" />
     </div>
 
-    <div id="pitches">{{ macro.get(pitch) }}</div>
+    <div id="pitches">{{ macro.get(word) }}</div>
   </section>
 </main>
 {% endblock %}
