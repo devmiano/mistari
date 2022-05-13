@@ -25,7 +25,7 @@
     />
   </a>
   {% else %}
-  <a class="bar-add" href="/add">
+  <a class="bar-add" href="{{url_for('auth.login')}}">
     <img class="add-icon" src="../assets/icons/plus.svg" alt="plus" />
   </a>
   {% endif %}
