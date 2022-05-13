@@ -8,18 +8,18 @@
       {% endfor %}
     </div>
     <form class="form" method="post">
-      {{ add.csrf_token }}
+      {{ form.csrf_token }}
       <div class="group">
-        <p class="label">{{ add.caption.label }}</p>
-        <p class="input">{{ add.caption() }}</p>
-        {% for error in add.caption.errors %}
+        <p class="label">{{ form.caption.label }}</p>
+        <p class="input">{{ form.caption() }}</p>
+        {% for error in form.caption.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
 
       <div class="group">
-        <button class="btn">{{ add.submit() }}</button>
-        {% for error in add.submit.errors %}
+        <button class="btn">{{ form.submit() }}</button>
+        {% for error in form.submit.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>

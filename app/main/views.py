@@ -64,7 +64,7 @@ def update_pic(uname):
 def add(uname):
   user = User.query.filter_by(username=uname).first()
   '''function that renders the add page'''
-  title = 'Add a Pitch'
+  title = 'Choose a Category'
   
   
   if user is None:
@@ -72,9 +72,29 @@ def add(uname):
   
   categories = Category.query.all()
   
-  
-  # category_id = Category.query.filter_by().first()
-  # add_pitch = AddPitch()
-  
   return render_template('profile/add.html', title=title, categories=categories, uname=user.username)
+
+@main.route('/user/<uname>/add/<cname>',methods=['GET', 'POST'])
+@login_required
+def create(uname, cname):
+  user = User.query.filter_by(username=uname).first()
+  category = Category.query.filter_by(name=cname).first()
+  add_pitch = AddPitch()
+  '''function that renders the add page'''
+  
+  
+  if cname == 'elevator' and add_pitch.validate_on_submit():
+    caption = add_pitch.caption.data
+    author_id = current_user._get_current_object().id
+    category = category.name
+    pitch = Pitch(caption=caption, author_id=author_id, category=category)
+    
+    db.session.add(pitch)
+    db.session.commit()
+    
+    return redirect(url_for('main.index'))
+  
+  title = f'{category.title}'
+  
+  return render_template('profile/create.html', title=title, form=add_pitch, uname=user.username, cname=category.name)
 
