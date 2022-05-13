@@ -1,5 +1,13 @@
 {% extends 'base.html' %} {% block content %}
 <div class="wrapper">
+  <a href="{{url_for('main.add',uname=current_user.username)}}" class="back">
+    <img
+      class="icon"
+      src="{{url_for('static', filename='icons/arrow-left.svg')}}"
+      alt=""
+    />
+    <p class="text">back</p>
+  </a>
   {% if cname == 'elevator' %}
   <div class="info">
     <h1>How it works</h1>

@@ -297,6 +297,32 @@
   display: flex;
   flex-direction: row;
 
+  .back {
+    left: 1rem;
+    top: 1rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    background: $bg;
+
+    .text {
+      color: $primary;
+      font-weight: 300;
+      font-size: 1.3rem;
+      font-family: $quest;
+      margin-left: 1rem;
+      letter-spacing: 0.05rem;
+    }
+
+    .icon {
+      height: 1.5rem;
+    }
+  }
+
   .info {
     width: 50%;
     height: 100%;
