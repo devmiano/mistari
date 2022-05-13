@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block content %}
 <div class="wrapper">
   <div class="login">
-    <h1 class="title">Add Caption</h1>
+    <h1 class="title">{{title}}</h1>
     <div class="message">
       {% for message in get_flashed_messages() %}
       <p>{{message}}</p>

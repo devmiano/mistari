@@ -83,7 +83,7 @@ def create(uname, cname):
   '''function that renders the add page'''
   
   
-  if cname == 'elevator' and add_pitch.validate_on_submit():
+  if cname == category.name and add_pitch.validate_on_submit():
     caption = add_pitch.caption.data
     author_id = current_user._get_current_object().id
     category = category.name
@@ -94,7 +94,7 @@ def create(uname, cname):
     
     return redirect(url_for('main.index'))
   
-  title = f'{category.title}'
+  title = f'Add {category.title}'
   
   return render_template('profile/create.html', title=title, form=add_pitch, uname=user.username, cname=category.name)
 

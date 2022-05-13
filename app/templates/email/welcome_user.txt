@@ -1,2 +1,2 @@
 Hello {{user.username}}
-Welcome to Mistari
+Welcome to Mistari the best collaborative platform to create and share your pitches, We are glad you have joined us to challenge yourself and other contributors to create powerful and effective pitches.
