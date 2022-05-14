@@ -1,7 +1,6 @@
 export SECRET_KEY=1B0A8360C48F30739BD7A62F057116FB
 export MAIL_USERNAME=mistarideck@gmail.com
 export MAIL_PASSWORD=2103DD5EF304BB7205A2B4EE2C0B9CE19FC9BFEE
-export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://devmiano:devmiano@localhost:5432/mistari
 
 python3 manage.py server
 # python3 manage.py shell

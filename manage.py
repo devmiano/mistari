@@ -1,9 +1,10 @@
 from app import create_app,db
 from flask_script import Manager, Server
 from flask_migrate import Migrate, MigrateCommand
-from app.models import User, Pitch, Comment, Category, Upvote, Downvote
+from app.models import *
 
 app = create_app('production')
+app = create_app('development')
 
 
 manager = Manager(app)
