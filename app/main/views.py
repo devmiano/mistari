@@ -91,11 +91,15 @@ def pixar():
 def profile(uname):
   
   user = User.query.filter_by(username=uname).first()
+  author_id=current_user._get_current_object().id,
+  pitch = Pitch.query.filter_by(id=author_id).order_by(Pitch.posted).all()
   
   if user is None:
     abort(404)
     
-  return render_template('profile/profile.html', user=user)
+  title = f'{user.first_name} {user.last_name}'
+    
+  return render_template('profile/profile.html', user=user, pitch=pitch, title=title)
 
 
 @main.route('/user/<uname>/update', methods=['GET', 'POST'])
@@ -117,9 +121,13 @@ def update_profile(uname):
     db.session.add(user)
     db.session.commit()
     
-    return redirect(url_for('.profile', uname=user.username))
     
-  return render_template('profile/update.html', update=update)
+    
+    return redirect(url_for('.profile', uname=user.username))
+  
+  title = f'{user.first_name} {user.last_name} Update Profile'
+    
+  return render_template('profile/update.html', update=update, title=title)
 
 
 @main.route('/user/<uname>/update/pic',methods= ['POST'])
@@ -131,6 +139,8 @@ def update_pic(uname):
     path = f'photos/{filename}'
     user.profile_pic_path = path
     db.session.commit()
+    
+    title = f'{user.first_name} {user.last_name} Update Pic'
     
   return redirect(url_for('main.profile', uname=uname))
 
@@ -182,17 +192,19 @@ def create(uname, cname):
 def comment(pitch_id):
   form = AddComment()
   pitch=Pitch.query.get(pitch_id)
+  now = dt.now()
   if form.validate_on_submit():
     caption = form.caption.data
+    posted = now.strftime("%a %d %b %Y %I:%M:%S")
 
-    comment = Comment(caption=caption, author_id=current_user._get_current_object().id, pitch_id=pitch_id)
+    comment = Comment(caption=caption, author_id=current_user._get_current_object().id, pitch_id=pitch_id, posted=posted)
     db.session.add(comment)
     db.session.commit()
 
     return redirect(url_for('main.comment', pitch_id= pitch_id))
-
+  title = 'Comment'
   comments = Comment.query.filter_by(pitch_id=pitch_id).all()
-  return render_template('comment.html', form=form, comments=comments, pitch=pitch )
+  return render_template('comment.html', form=form, comments=comments, pitch=pitch, title=title )
 
 
 @main.route('/pitch/upvote/<int:pitch_id>/new', methods = ['GET', 'POST'])
@@ -217,7 +229,7 @@ def downvote(pitch_id):
   if Downvote.query.filter(Downvote.author_id==user.id,Downvote.pitch_id==pitch_id).first():
     return  redirect(url_for('main.index'))
 
-
+  
   new_downvote = Downvote(pitch_id=pitch_id, user = current_user)
   new_downvote.save_downvotes()
   return redirect(url_for('main.index'))

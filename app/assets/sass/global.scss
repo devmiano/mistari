@@ -35,7 +35,6 @@
 
 .app {
   width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
 
@@ -128,6 +127,8 @@
     padding: 1rem;
     overflow: auto;
     color: $text-light;
+    align-items: flex-start;
+    margin-bottom: 5rem;
 
     .hero {
       @include row;
@@ -286,7 +287,7 @@
       color: $primary;
       font-weight: 400;
       font-size: 1rem;
-      padding: 0.8rem 0.8rem;
+      padding: 0.8rem;
       margin-left: 0.5rem;
       border-radius: 0.2rem;
       letter-spacing: 0.05rem;
@@ -295,10 +296,59 @@
   }
 }
 
+.ctitle {
+  color: $primary;
+  margin-top: 1rem;
+  font-weight: 200;
+  font-size: 1rem;
+  font-family: $quest;
+  letter-spacing: 0.05rem;
+  text-align: left;
+}
+
+#comment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .content {
+    width: 100%;
+    margin: 0.2rem 0;
+    background: $text-dark;
+    padding: 0.4rem;
+    .user {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      .username {
+        padding-right: 0.4rem;
+        color: $primary;
+        font-weight: 400;
+        font-size: 0.8rem;
+        font-family: $outfit;
+      }
+      .posted {
+        color: $primary-300;
+        font-weight: 200;
+        font-size: 0.7rem;
+        font-family: $outfit;
+      }
+    }
+
+    .caption {
+      color: $primary-200;
+      font-weight: 100;
+      font-size: 0.9rem;
+      font-family: $outfit;
+      padding-right: 0.4rem;
+    }
+  }
+}
+
 .wrapper {
   width: 100%;
   height: 100vh;
-  background: $accent-400;
+  background: $text-dark;
   display: flex;
   flex-direction: row;
 
@@ -316,15 +366,112 @@
 
     .text {
       color: $primary;
-      font-weight: 300;
-      font-size: 1.3rem;
+      font-weight: 200;
+      font-size: 1rem;
       font-family: $quest;
       margin-left: 1rem;
       letter-spacing: 0.05rem;
     }
 
     .icon {
-      height: 1.5rem;
+      height: 1rem;
+    }
+  }
+
+  #pitch-details {
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .pitch {
+      width: 100%;
+      background: $accent-400;
+      padding: 1rem;
+      border-radius: 0.3rem;
+      .category {
+        padding: 0.8rem 1rem;
+        background: $blue;
+        border-radius: 0.2rem;
+        width: fit-content;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+          font-family: $gochi;
+          font-size: 1.3rem;
+          color: $accent-400;
+          text-transform: uppercase;
+        }
+      }
+
+      .pitch {
+        color: $primary;
+        margin-bottom: 1.5rem;
+        font-weight: 100;
+        font-size: 1.1rem;
+        font-family: $quest;
+        letter-spacing: 0.05rem;
+        text-align: left;
+      }
+
+      .posted {
+        float: right;
+        padding: 0.8rem 1rem;
+        background: $accent-300;
+        width: fit-content;
+        color: $blue;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        font-family: $outfit;
+      }
+    }
+    .ft {
+      width: 100%;
+      display: flex;
+      padding: 0.25rem;
+      margin-top: 0.5rem;
+      flex-direction: row;
+      border-radius: 0.2rem;
+      align-items: flex-start;
+      background-color: $text-400;
+      justify-content: space-between;
+
+      .left {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        .count {
+          margin: 0.2rem 0.5rem;
+          font-weight: 200;
+          color: $blue-light;
+          font-size: 0.8rem;
+          font-family: $outfit;
+          letter-spacing: 0.05rem;
+        }
+      }
+
+      .text {
+        margin: 0.2rem 0.5rem;
+        font-weight: 200;
+        color: $blue-light;
+        font-size: 0.8rem;
+        font-family: $outfit;
+        letter-spacing: 0.05rem;
+      }
+    }
+    .comments {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+      margin: 1rem 0;
+      overflow: auto;
     }
   }
 
@@ -339,12 +486,13 @@
     h1 {
       @include title;
       color: $blue;
+      text-transform: uppercase;
     }
 
     h4 {
       color: $blue-light;
       margin-bottom: 1.5rem;
-      font-weight: 300;
+      font-weight: 200;
       font-size: 1.3rem;
       font-family: $quest;
       letter-spacing: 0.05rem;
@@ -368,11 +516,15 @@
   .login,
   .update {
     @include col;
+    top: 0;
     width: 50%;
+    z-index: 90;
     height: 100%;
     padding: 2rem;
     background: $bg;
+    position: sticky;
     justify-content: center;
+
     .title {
       @include title;
       color: $primary;
@@ -752,19 +904,22 @@
 }
 
 #section-title {
-  @include category-title;
-  float: left;
-  padding: 1rem;
-  color: $primary;
-  font-size: 2.4rem;
-  text-align: left;
-  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  .title {
+    @include title;
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
 }
 
 #pitches {
-  gap: 0.5rem;
+  width: 90%;
+  gap: 0.8rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
 
   .pitch {
     width: auto;
@@ -779,11 +934,12 @@
       background-color: $bg;
       width: fit-content;
       border-radius: 0.2rem;
-      text-transform: capitalize;
+      text-transform: uppercase;
     }
     .caption {
       @include pitch-caption;
       text-align: left;
+      margin-bottom: 1rem;
     }
     .date {
       @include pitch-date;
@@ -883,7 +1039,7 @@
         flex-direction: column;
         justify-content: center;
         border-radius: 0.2rem;
-        background-color: $blue-light;
+        background-color: $primary;
 
         .image {
           background-position: center;
@@ -894,7 +1050,9 @@
         }
         .username {
           @include pitch-date;
-          color: $text-300;
+          color: $text-400;
+          font-weight: 500;
+          font-size: 1rem;
         }
         .email {
           @include pitch-date;
@@ -921,9 +1079,12 @@
           input[type='submit' i] {
             border: none;
             font-family: $outfit;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
+            font-weight: 200;
+            letter-spacing: 0.05rem;
             outline: none;
-            color: $bg;
+            color: $primary;
+            background-color: $accent-400;
             padding: 0.3rem 0.8rem;
             border-radius: 0.2rem;
           }
@@ -944,6 +1105,7 @@
           font-family: $outfit;
           font-size: 1.1rem;
           font-weight: 200;
+          color: $blue-light;
           letter-spacing: 0.05rem;
         }
       }
@@ -953,12 +1115,48 @@
 
       a {
         @include pitch-date;
-        color: $accent-400;
+        color: $bg;
+        font-family: $outfit;
+        font-size: 0.9rem;
+        letter-spacing: 0.05rem;
+        cursor: pointer;
         padding: 0.5rem 1rem;
         text-decoration: none;
         border-radius: 0.2rem;
         background-color: $primary;
       }
     }
+  }
+}
+
+.msg-text {
+  font-family: $outfit;
+  font-size: 1.1rem;
+  font-weight: 200;
+  letter-spacing: 0.05rem;
+  margin-left: 3rem;
+}
+
+#app-footer {
+  z-index: -10;
+  right: 1rem;
+  left: 1rem;
+  width: 100%;
+  height: 5rem;
+  bottom: 0;
+  display: flex;
+  position: fixed;
+  margin-top: 2rem;
+  align-items: center;
+  border-radius: 0.2rem;
+  justify-content: center;
+  background-color: $accent-400;
+
+  p {
+    color: $primary;
+    font-weight: 200;
+    font-size: 1.1rem;
+    font-family: $outfit;
+    letter-spacing: 0.05rem;
   }
 }

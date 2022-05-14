@@ -44,16 +44,19 @@
 </div>
 {% endfor %} {% else %} {% endif %} {% endmacro %} {% macro
 getComments(comments) %}
-<ul>
+<div id="comment">
   {% if comments %} {% for comment in comments %}
-  <div class="">
+  <div class="content">
+    <div class="user">
+      <p class="username">{{comment.user.username}}</p>
+      <p class="posted">{{comment.posted}}</p>
+    </div>
     <p class="caption">{{ comment.caption }}</p>
-    <p class="text">{{comment.user.username}}</p>
   </div>
   {% endfor %} {% else %}
 
-  <p>No comments found.</p>
+  <p>say something...</p>
   {%endif%}
-</ul>
+</div>
 
 {% endmacro %}

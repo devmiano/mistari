@@ -11,8 +11,14 @@
       </div>
       <img class="hero-image" src="../assets/images/hero.svg" alt="hero" />
     </div>
-
+    <div id="section-title">
+      <h3 class="title">Recent Pitches</h3>
+    </div>
+    {% if pixar %}
     <div id="pitches">{{ macro.get(pixar) }}</div>
+    {% else %}
+    <p class="msg-text">No recent Pitches available</p>
+    {% endif %}
   </section>
 </main>
 {% endblock %}

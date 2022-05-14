@@ -10,12 +10,24 @@
     <p class="text">back</p>
   </a>
 
-  <div class="info">
-    <h1>{{pitch.category}}</h1>
-    <h4>{{pitch.caption}}</h4>
-    <div class="list">
-      <p>{{macro.getComments(comments)}}</p>
+  <div id="pitch-details">
+    <div class="pitch">
+      <div class="category">
+        <h1 class="">{{pitch.category}}</h1>
+      </div>
+      <h4 class="pitch">{{pitch.caption}}</h4>
+      <p class="posted">{{pitch.posted}}</p>
     </div>
+    <div class="ft">
+      <div class="left">
+        <p class="count">{{pitch.upvotes.count()}} likes</p>
+        <p class="count">{{pitch.downvotes.count()}} dislikes</p>
+        <p class="count">{{pitch.comments.count()}} comments</p>
+      </div>
+      <p class="text">by: {{pitch.user.username}}</p>
+    </div>
+    <h3 class="ctitle">Comments</h3>
+    <div class="comments">{{macro.getComments(comments)}}</div>
   </div>
   <div class="login">
     <h1 class="title">{{title}}</h1>
