@@ -1,5 +1,4 @@
 import os
-import re
 
 class Config:
   '''class to configure url parameters'''
@@ -13,7 +12,8 @@ class Config:
   MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
   
 class ProdConfig(Config):
-  SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
+  SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
+  # SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
   DEBUG=False
 
 class DevConfig(Config):
