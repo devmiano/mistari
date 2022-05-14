@@ -1,4 +1,5 @@
 import os
+import re
 
 class Config:
   '''class to configure url parameters'''
