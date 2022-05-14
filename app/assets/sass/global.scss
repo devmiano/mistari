@@ -168,7 +168,6 @@
         }
       }
       .hero-image {
-        margin-right: 2rem;
         height: 18rem;
       }
     }
@@ -375,6 +374,18 @@
 
     .icon {
       height: 1rem;
+    }
+  }
+
+  .profmage {
+    width: 50%;
+    height: 100%;
+    .img {
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+      width: 100%;
+      height: 100%;
     }
   }
 

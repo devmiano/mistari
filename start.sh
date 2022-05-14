@@ -6,4 +6,5 @@ python3 manage.py server
 # python3 manage.py shell
 # python3 manage.py db init
 # python3 manage.py db migrate -m 'schema update'
-# python3 manage.py upgrade
+# python3 manage.py db upgrade
+# python3 manage.py test

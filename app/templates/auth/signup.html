@@ -1,5 +1,12 @@
 {% extends 'base.html' %} {% block content %}
 <div class="wrapper">
+  <div class="profmage">
+    <img
+      class="img"
+      src="{{url_for('static', filename='images/bg.svg')}}"
+      alt=""
+    />
+  </div>
   <div class="signup">
     <h1 class="title">Sign Up</h1>
     <form class="form" method="post">
