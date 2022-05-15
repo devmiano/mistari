@@ -1332,7 +1332,7 @@
                   #profile .head .left .user .form input[type='file' i] {
                     appearance: none;
                     background-color: initial;
-                    cursor: default;
+                    cursor: pointer;
                     align-items: baseline;
                     color: #13152a;
                     text-overflow: ellipsis;
@@ -1352,29 +1352,31 @@
                       color: #00ffe7;
                       background-color: #3b0086;
                       padding: 0.3rem 0.8rem;
-                      border-radius: 0.2rem; }
-        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031101}}
+                      border-radius: 0.2rem;
+                      cursor: pointer; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031102}}
         #profile .head .left .bio {
           margin-left: 1rem;
           margin-bottom: 2rem; }
-          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031104}}
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031105}}
           #profile .head .left .bio h1 {
             font-family: 'Gochi Hand', cursive;
             font-size: 2.4rem;
             color: #00ffe7;
             text-transform: uppercase;
             letter-spacing: 0.05rem; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031111}}
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031112}}
             #profile .head .left .bio p {
+              width: 80%;
               font-family: 'Outfit', sans-serif;
               font-size: 1.1rem;
               font-weight: 200;
               color: #a2cbff;
               letter-spacing: 0.05rem; }
-      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031122}}
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031124}}
       #profile .head .link {
         padding: 0.2rem; }
-        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031124}}
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031126}}
         #profile .head .link a {
           color: #7378bf;
           font-size: 0.8rem;
@@ -1389,7 +1391,7 @@
           border-radius: 0.2rem;
           background-color: #00ffe7; }
 
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031143}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031145}}
   .msg-text {
     font-family: 'Outfit', sans-serif;
     font-size: 1.1rem;
@@ -1397,7 +1399,7 @@
     letter-spacing: 0.05rem;
     margin-left: 3rem; }
 
-    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031151}}
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031153}}
     #app-footer {
       z-index: -10;
       right: 1rem;
@@ -1412,7 +1414,7 @@
       border-radius: 0.2rem;
       justify-content: center;
       background-color: #3b0086; }
-      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031165}}
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/mistari\/app\/assets\/sass\/global\.scss}line{font-family:\000031167}}
       #app-footer p {
         color: #00ffe7;
         font-weight: 200;
